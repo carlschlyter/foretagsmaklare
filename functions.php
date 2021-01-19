@@ -99,44 +99,33 @@ function register_acf_block_types(){
 
     acf_register_block_type(
         array(
-            'name'              => 'articles-section',
-            'title'             => __('Articles Section'),
-            'description'       => __('Settings Articles Section'),
-            'render_template'   => get_template_directory() . '/template-parts/blocks/articles_section/articles_section.php',
-            'enqueue_style'     => get_template_directory_uri() . '/template-parts/blocks/articles_section/articles_section.css',
-            'category'          => 'design',
-        )
-    );    
-
-    acf_register_block_type(
-        array(
-            'name'              => 'my-services-miniatures-section',
-            'title'             => __('My Services Miniatures Section'),
-            'description'       => __('Settings Services Miniatures'),
-            'render_template'   => get_template_directory() . '/template-parts/blocks/my_services_miniatures_section/my_services_miniatures_section.php',
-            'enqueue_style'     => get_template_directory_uri() . '/template-parts/blocks/my_services_miniatures_section/my_services_miniatures_section.css',
-            'category'          => 'design',
-        )
-    );    
-
-    acf_register_block_type(
-        array(
-            'name'              => 'header-intro-section',
-            'title'             => __('Header Intro Section'),
-            'description'       => __('Settings for section with a header and an intro text'),
-            'render_template'   => get_template_directory() . '/template-parts/blocks/header_intro_section/header_intro_section.php',
-            'enqueue_style'     => get_template_directory_uri() . '/template-parts/blocks/header_intro_section/header_intro_section.css',
-            'category'          => 'design',
-        )
-    );    
-
-    acf_register_block_type(
-        array(
             'name'              => 'text-and-image-section',
             'title'             => __('Text and Image Section'),
             'description'       => __('Settings for section with a header and text part on one side and an image part on the other'),
             'render_template'   => get_template_directory() . '/template-parts/blocks/text_and_image_section/text_and_image_section.php',
             'enqueue_style'     => get_template_directory_uri() . '/template-parts/blocks/text_and_image_section/text_and_image_section.css',
+            'category'          => 'design',
+        )
+    );    
+
+    acf_register_block_type(
+        array(
+            'name'              => 'quote-section',
+            'title'             => __('Quote Section'),
+            'description'       => __('Settings for section with a quote and an image'),
+            'render_template'   => get_template_directory() . '/template-parts/blocks/quote_section/quote_section.php',
+            'enqueue_style'     => get_template_directory_uri() . '/template-parts/blocks/quote_section/quote_section.css',
+            'category'          => 'design',
+        )
+    );    
+
+    acf_register_block_type(
+        array(
+            'name'              => 'faq-section',
+            'title'             => __('FAQ Section'),
+            'description'       => __('Settings for section with some faq and an image'),
+            'render_template'   => get_template_directory() . '/template-parts/blocks/faq_section/faq_section.php',
+            'enqueue_style'     => get_template_directory_uri() . '/template-parts/blocks/faq_section/faq_section.css',
             'category'          => 'design',
         )
     );    

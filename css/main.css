@@ -1,0 +1,28 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family:'Montserrat', sans-serif;
+}
+
+body h1 {
+    font-size: 3vw;
+}
+
+body h2 {
+    font-size: 2vw;
+}
+
+body p {
+   font-size: 1vw;
+}
+
+#front-page-container {
+    padding: 0;
+    margin: 0;
+}
+
