@@ -35,7 +35,11 @@ $messages = get_field('hero_messages');
 
                     <a href="">
                         
-                        <button type="button" class="btn btn-dark" id="header-button"> <?php echo $text; ?> </button>
+                        <button type="button" class="btn btn-dark" id="header-button"> 
+                            
+                            <p> <?php echo $text; ?> </p>
+
+                        </button>
 
                     </a>
 
@@ -57,7 +61,7 @@ $messages = get_field('hero_messages');
 
                 <div id="message-box">
 
-                    <h3> <?php echo $header; ?> </h3>
+                    <h2> <?php echo $header; ?> </h2>
                     <p> <?php echo $text; ?> </p>
 
                 </div>
