@@ -5,6 +5,7 @@ $image = get_field('hero_image')['sizes']['hero-image-max'];
 $header = get_field('hero_header');
 $buttons = get_field('hero_buttons');
 $messages = get_field('hero_messages');
+$quote = get_field('quote');
 
 ?>
 
@@ -68,6 +69,12 @@ $messages = get_field('hero_messages');
 
             <?php endforeach; ?>
     
+       </div>
+
+       <div class="col-md-12" id="quote-container">
+
+            <h2> <?php echo $quote ?> </h2>
+
        </div>
 
     </div>
