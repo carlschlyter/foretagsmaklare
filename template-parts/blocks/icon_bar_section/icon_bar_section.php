@@ -5,42 +5,41 @@ $icons = get_field('icons');
 
 ?>
 
-<div class="row" id="icon-bar-wrap">
+<div class="row" id="icon-bar-container">
 
-    <div class="col-md-12" id="icon-bar-container">
+    <div class="col-md-12" id="icon-header-container">
+        <h2> <?php echo $header; ?> </h2>
+    </div>
+    
+    <div class="col-md-12" id="icon-container">
 
-        <div id='icon-header-container'>
-            <h2> <?php echo $header; ?> </h2>
-        </div>
-        
-        <div class="row" id="icon-container">
+        <?php foreach($icons as $icon) : 
+            
+        $pic = $icon['icon']['sizes']['icon-image-large'];    
+        $label = $icon['label'];
+        $link = $icon['link'];
 
-            <?php foreach($icons as $icon) : 
-                
-            $pic = $icon['icon']['sizes']['icon-image-large'];    
-            $label = $icon['label'];
-            $link = $icon['link'];
+        ?>
 
-            ?>
+            <div id="icon-box">
 
-                <div class="col-md-2" id="icon-box">
-
-                    <div>
+                <div>
+                    <div id="icon-img-box">
                         <img src="<?php echo $pic; ?>" alt="" class="img-fluid"> 
-
-                        <div>
-                            <h3><?php echo $label; ?></h3>
-                        </div>
-
                     </div>
-                                                                                          
-                </div>   
+                </div>
+                
+                <div>
+                    <h3><?php echo $label; ?></h3>
+                </div>
+                                                                                        
+            </div>   
 
-            <?php endforeach; ?>
-
-        </div>
+        <?php endforeach; ?>
 
     </div>
 
 </div>
+
+
 
