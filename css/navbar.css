@@ -1,6 +1,5 @@
 
-
-#nav-wrap {
+  #nav-wrap {
     padding-left: 0;
     padding-right: 0;
     justify-content: center;
@@ -8,9 +7,9 @@
 
 .navbar {
     position: absolute;
-    top: 2vw;
+    top: 2.5vw;
     background-color: #111;
-    opacity: 0.5;
+    opacity: 0.2;
     /* backdrop-filter: blur(5px); */
     margin-right: 0;
     overflow: visible;
@@ -23,7 +22,6 @@
 .open-slide {
     display: flex;
     width: 100%;
-    justify-content: center;
     align-items: center;
 }
 
@@ -114,14 +112,20 @@
     }
 
     .navbar {
-        width: 40px;
-        height: 40px;
+        width: 50px;
+        height: 50px;
         top: 0.25vw;
         opacity: 0.8;
     }
 
+    /* .navbar {
+        width: 50px;
+        top: 0.5vw;
+    } */
+
     .open-slide a {
         width:100%;
+        display: flex;
         justify-content: center;
         align-items: center;
     }

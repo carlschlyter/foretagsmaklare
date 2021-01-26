@@ -5,6 +5,12 @@
     justify-content: center;
 }
 
+#hero-container,
+#hero-box {
+    padding: 0;
+    margin: 0;
+}
+
 #hero-box img {
     padding: 0;
 }
@@ -14,6 +20,9 @@
     top: 7vw; 
     padding: 0;
     text-align: center;
+    display: flex;
+    justify-content: center;
+    width: fit-content
 }
 
 #hero-header > div {
@@ -83,6 +92,21 @@
 
 }
 
+@media screen and (max-width: 320px) {
+
+    #hero-header {
+        top: 4vw;
+    }
+
+    #hero-header div h1 {
+        width: 60vw;
+        flex-wrap: wrap;
+        font-size: 4vw;
+    }
+
+}
+
+
 @media screen and (max-width: 340px) {
 
     #header-button p {
@@ -100,11 +124,12 @@
     top: 33vw;
     display: flex;
     justify-content: space-evenly;
+    height: 12vw;
 }
 
 #message-box {
     width: 20VW;
-    height: 15VW;
+    height: 10VW;
 }
 
 #message-box h2, p {

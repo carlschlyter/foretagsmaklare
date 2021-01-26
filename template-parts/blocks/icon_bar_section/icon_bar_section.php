@@ -2,6 +2,8 @@
 
 $header = get_field('header');
 $icons = get_field('icons');
+$button_text = get_field('button_text');
+$button_link = get_field('button_link');
 
 ?>
 
@@ -36,6 +38,20 @@ $icons = get_field('icons');
             </div>   
 
         <?php endforeach; ?>
+
+    </div>
+
+    <div class="col-md-12" id="readmore-button-box">
+
+        <a href="">
+            
+            <button type="button" class="btn btn-dark" id="readmore-button"> 
+                
+                <p> <?php echo $button_text; ?> </p>
+
+            </button>
+
+        </a>
 
     </div>
 
