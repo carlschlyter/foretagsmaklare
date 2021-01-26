@@ -41,6 +41,7 @@ add_image_size('hero-image-max', 2560, 1200, true);
 add_image_size('icon-image', 60, 60, true);
 add_image_size('icon-image-large', 150, 150, true);
 add_image_size('offers-image', 300, 150, true);
+add_image_size('offers-image-square', 300, 300, true);
 add_image_size('article-image', 600, 450, true);
 add_image_size('miniature-image', 180, 120, true);
 add_image_size('imgtxt-section-image', 375, 250, true);
