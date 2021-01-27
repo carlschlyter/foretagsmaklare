@@ -37,3 +37,26 @@ body p {
     margin: 0;
 }
 
+@keyframes breathe_in_offers {
+
+    from {
+        transform: scale(1.0);
+    }
+
+    to {
+         transform: scale(1.05);
+    }
+
+}
+
+@keyframes breathe_out_offers {
+
+    from {
+        transform: scale(1.05);
+    }
+
+    to {
+         transform: scale(1.0);
+    }
+
+}

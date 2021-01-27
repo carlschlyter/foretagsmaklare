@@ -39,11 +39,30 @@ $button_link = get_field('read_more_button_link');
                 <h3> <?php echo $descr; ?> </h3>
 
             </div>
-            
+
+            <div id="offers-boxes-readmore-container">
+
+                <a href=" <?php echo $link; ?> "> <?php echo $linktxt; ?> </a>
+
+            </div>
+        
         </div>
 
-
         <?php endforeach; ?>
+
+    </div>
+
+    <div class="col-md-12" id="more-offers-button-box">
+
+        <a href="">
+            
+            <button type="button" class="btn btn-dark" id="more-offers-button"> 
+                
+                <p> <?php echo $button; ?> </p>
+
+            </button>
+
+        </a>
 
     </div>
 
