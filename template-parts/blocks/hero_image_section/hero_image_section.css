@@ -1,4 +1,7 @@
 
+#hero-container p {
+    color: white;
+}
 
 #hero-box {
     display: flex;
@@ -52,6 +55,12 @@
     opacity: 0.4;
     text-align: center;
     margin: auto;
+}
+
+#header-button:hover {
+    opacity: 0.6;
+    box-shadow:12px 6px 6px rgb(161, 153, 161);
+    transition: 0.5s;
 }
 
 #header-button p {

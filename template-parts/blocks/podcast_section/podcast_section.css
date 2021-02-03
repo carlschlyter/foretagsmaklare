@@ -1,0 +1,21 @@
+
+#podcast-section-container {
+    display: flex;
+    justify-content: center;
+    width: 50vw;
+    margin: 5vw auto;
+}
+
+#podcast-section-container h2, a {
+    text-align: center;
+}
+
+#podcast-button:hover {
+    box-shadow:10px 5px 5px rgb(161, 153, 161);
+    transition: 0.5s;
+}
+
+#podcast-button-box h4 {
+    color: white;
+    margin-bottom: 0;
+}

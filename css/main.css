@@ -21,8 +21,13 @@ body h3 {
     font-size: 1.5vw;
 }
 
+body h4 {
+    font-size: 1.25vw;
+}
+
 body p {
-   font-size: 1vw;
+    color: black;
+    font-size: 1vw;
 }
 
 @media screen and (max-width: 768px) {

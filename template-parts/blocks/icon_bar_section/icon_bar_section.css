@@ -9,6 +9,10 @@
     background-color: rgb(233, 232, 228);
 }
 
+#icon-bar-container p {
+    color: white;
+}
+
 #icon-header-container {
     margin: 2vw 0;
     width: 100%;
@@ -51,6 +55,12 @@
     opacity: 0.4;
     text-align: center;
     margin: auto;
+}
+
+#readmore-button:hover {
+    opacity: 0.6;
+    box-shadow:10px 5px 5px rgb(161, 153, 161);
+    transition: 0.5s;
 }
 
 #readmore-button p {

@@ -1,0 +1,50 @@
+
+#quote-section-container {
+    padding: 0;
+    margin: 0;
+    position: relative;
+}
+
+#quote-section-container img {
+    padding: 0;
+    margin: 0;
+}
+
+#quote-section-quote-box {
+    position: absolute;
+    top: 10vw;
+    display: flex;
+    justify-content: center;
+}
+
+#quote-section-quote-box h3 {
+    color: white;
+    font-size: 1.75vw;
+    font-style: italic;
+}
+
+#quote-section-quote-box p {
+    color: white;
+    margin-top: 2vw;
+    font-size: 1.25vw;
+}
+
+#quote-section-quote-box > div {
+    display: block;
+}
+
+@media screen and (max-width: 736px) {
+
+    #quote-section-quote-box {
+        top: 8vw;
+    }
+
+    #quote-section-quote-box h3 {
+        font-size: 2.5vw;
+    }
+    
+    #quote-section-quote-box p {
+        font-size: 2vw;
+    }
+}
+

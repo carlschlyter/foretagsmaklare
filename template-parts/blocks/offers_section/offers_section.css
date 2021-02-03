@@ -1,6 +1,6 @@
 
 #offers-container {
-    margin: 1.5vw 0;
+    margin: 2vw 0;
     padding-left: 0;
     padding-right: 0;
     width: 100%;
@@ -25,13 +25,8 @@
     padding: 0;
 }
 
-#offers-boxes-container p {
-    color: black;
-}
-
 #offers-boxes-box {
     padding: 3vw;
-    /* border: 1px solid grey; */
 }
 
 #offers-boxes-box:hover {
@@ -44,6 +39,11 @@
 #offers-boxes-box {
     animation-name: breathe_out_offers;
     animation-duration: 1s;
+}
+
+#offers-boxes-image-container {
+    width: 300px;
+    height: auto;
 }
 
 #offers-boxes-descr-container {
@@ -75,10 +75,16 @@
     margin: auto;
 }
 
-#more-offers-button p {
+#more-offers-button:hover {
+    opacity: 0.6;
+    box-shadow:10px 5px 5px rgb(161, 153, 161);
+    transition: 0.5s;
+}
+
+#more-offers-button > p {
     font-size: 1vw;
     margin: 0;
-    color: white;
+    color: #ffffff;
 }
 
 @media screen and (max-width: 1365px) {
@@ -110,4 +116,14 @@
         font-size: 2.5vw;
     }
 
+    #offers-boxes-image-container {
+        width: 80vw;
+        height: auto;
+    }
+
+    #offers-boxes-descr-container {
+        width: 80vw;
+    }
+
 }
+

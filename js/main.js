@@ -6,3 +6,4 @@
     function closeSlideMenu(){
         document.querySelector('#side-menu').style.width = '0';
     }
+
