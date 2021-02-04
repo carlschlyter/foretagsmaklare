@@ -1,0 +1,17 @@
+
+#img-box-right {
+    padding-left: 5vw;
+}
+
+.answer {
+    height: 0;
+    transition: 1s;
+}
+
+.answer-text {
+    display: none;
+}
+
+
+
+
