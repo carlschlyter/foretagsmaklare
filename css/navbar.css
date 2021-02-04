@@ -7,16 +7,27 @@
 
 .navbar {
     position: absolute;
-    top: 2.5vw;
+    top: 1.25vw;
     background-color: #111;
-    opacity: 0.2;
+    opacity: 0.5;
     /* backdrop-filter: blur(5px); */
     margin-right: 0;
     overflow: visible;
     width: 100%;
+    height: fit-content;
     padding: 0;
     margin: 0;
     z-index: 2;
+}
+
+#logo-box {
+    margin-left: 8vw;
+    height: fit-content;
+}
+
+#logo-box img {
+    width: auto;
+    height: 7vh;
 }
 
 .open-slide {
@@ -27,7 +38,6 @@
 
 #nav-container {
     width: 100%;
-    height: fit-content;
     overflow-x: visible;
     z-index: 2;
 }
@@ -105,6 +115,15 @@
     margin-left: 50px;
 }
 
+@media screen and (max-width: 1365px) {
+   
+    #logo-box img {
+        width: auto;
+        height: 4vh;
+    }
+
+}
+
 @media screen and (max-width: 700px) {
 
     #menu-top-bar li {     
@@ -128,6 +147,10 @@
         display: flex;
         justify-content: center;
         align-items: center;
+    }
+
+    #logo-box {
+         display: none;
     }
 
 }

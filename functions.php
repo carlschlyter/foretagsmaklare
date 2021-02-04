@@ -37,6 +37,7 @@ add_theme_support('post-thumbnails');
 
 
 //Add custom image sizes
+add_image_size('logo', 102, 45, true);
 add_image_size('hero-image-max', 2560, 1200, true);
 add_image_size('hero-image-narrow', 2560, 600, true);
 add_image_size('icon-image', 60, 60, true);
