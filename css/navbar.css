@@ -42,6 +42,20 @@
     z-index: 2;
 }
 
+.content {
+    padding: 16px;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+
+.sticky + .content {
+    padding-top: 60px;
+}
+  
 #nav-container > div ul {
     list-style: none;
     display: flex;

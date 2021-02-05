@@ -3,15 +3,119 @@
     padding-left: 5vw;
 }
 
-.answer {
-    height: 0;
-    transition: 1s;
+.faq-box h2 {
+    position: relative;
+    width: 23rem;
+    margin-bottom: 5vh;
 }
 
-.answer-text {
-    display: none;
+.faq-box h2::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    right: 12px;
+    width: 67px; 
+    height: 2px;
 }
 
+.accordion {
+    width: 100%;
+    padding: 0 5px;
+    /* border-bottom:1px solid grey; */
+    cursor: pointer;
+    display: flex;
+    margin: 10px 0;
+    align-items: center;
+}
+
+.accordion .icon {
+    margin: 0 10px 0 0;
+    width: 30px;
+    height: 30px;
+    background: 8px 7px green;
+    border-radius: 50%;
+    float: left;
+    transition: all 0.5s ease-in;
+}
+
+.accordion h4 {
+    /* font-size: 22px; */
+    margin: 0;
+    padding: 3px 0 0 0;
+    font-weight: normal;
+    color: black;
+}
+
+.panel {
+    padding: 0 15px;
+    border-left: 1px solid lightgray;
+    margin-left: 25px;
+    font-size: 14px;
+    text-align: justify;
+    overflow: hidden;
+    max-height: 0;
+    transition: all 0.5s ease-in;
+}
+
+.panel p {
+    text-align: left;
+}
+
+@media screen and (max-width: 736px) {
+
+    #faq-row {
+        justify-content: center;
+    }
+
+    .faq-box h2 {
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 2.5vw;
+        margin-bottom: 5vw;
+        margin-top: 5vw;
+    }
+
+    .faq-img-box {
+        margin-top: 3vh;
+        display: flex;
+        justify-content: center;
+    }
+
+}
+
+@media screen and (max-width: 414px) {
+    .faq-box h2 {
+        font-size: 3vw;
+        width: fit-content;
+    }
+
+    .accordion {
+        margin-left: 10vw;
+        margin-right: 10vw;
+        width: fit-content;
+    }
+
+    .accordion h4 {
+        font-size: 2.5vw;;
+    }
+
+    .panel p {
+        font-size: 2vw;
+    }
+
+}
+
+@media screen and (max-width: 375px) {
+
+    .accordion {
+        width: fit-content;
+    }
+
+    .faq-box h2 {
+        width: fit-content;
+    }
+}
 
 
 

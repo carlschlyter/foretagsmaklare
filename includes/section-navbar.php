@@ -1,7 +1,7 @@
 
 <div class="container-fluid" id="nav-wrap">
         
-    <nav class="row navbar no-gutters">
+    <nav class="row navbar no-gutters" id="navbar">
 
         <span class="open-slide">
             

@@ -10,11 +10,11 @@ $questions = get_field('questions');
 
 <div class="container" id="faq-container">
 
-    <div class="row" id="faq-box">
+    <div class="row" id="faq-row">
 
         <?php if($side == 'left') : ?>
 
-            <div class="col-md-6">   
+            <div class="col-md-6 faq-box">   
 
                 <h2> <?php echo $header; ?> </h2>
 
@@ -25,21 +25,24 @@ $questions = get_field('questions');
                     
                 ?>
 
-                <div onclick="openAnswer()">
+                <div class="accordion">
 
+                    <div class="icon"></div>
                     <h4> <?php echo $quest; ?></h4>
 
                 </div>
                  
-                    <div class="answer">
-                        <p class="answer-text"> <?php echo $answ; ?> </p>
-                    </div>                
+                <div class="panel">
+                        
+                    <p> <?php echo $answ; ?> </p>
+                
+                </div>                
 
                 <?php endforeach; ?>
 
             </div>
 
-            <div class="col-md-6" id="img-box-right">
+            <div class="col-md-6 faq-img-box" id="faq-img-box-right">
 
                 <img src="<?php echo $img; ?> " alt="" class="img-fluid">
 
@@ -47,13 +50,13 @@ $questions = get_field('questions');
 
         <?php else: ?>
 
-            <div class="col-md-6" id="img-box-left">
+            <div class="col-md-6 faq-img-box" id="faq-img-box-left">
 
                 <img src="<?php echo $img; ?> " alt="" class="img-fluid">
 
             </div>
 
-            <div class="col-md-6">   
+            <div class="col-md-6 faq-box">   
 
                 <h2> <?php echo $header; ?> </h2>
 
@@ -64,15 +67,18 @@ $questions = get_field('questions');
                     
                 ?>
 
-                <div onclick="openAnswer()">
+                <div class="accordion">
 
+                    <div class="icon"></div>
                     <h4> <?php echo $quest; ?></h4>
 
                 </div>
 
-                    <div class="answer">
-                        <p class="answer-text"> <?php echo $answ; ?> </p>
-                    </div>            
+                <div class="panel">
+
+                    <p> <?php echo $answ; ?> </p>
+
+                </div>            
 
                 <?php endforeach; ?>
 
