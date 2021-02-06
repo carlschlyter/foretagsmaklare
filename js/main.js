@@ -1,5 +1,5 @@
 
-//Sidebar on mobile screens
+//Slide-in sidebar on mobile screens
 
 function openSlideMenu(){
     document.querySelector('#side-menu').style.width = '250px';
@@ -32,9 +32,9 @@ for(i = 0; i < len; i++){
 
 window.onscroll = function() {myFunction()};
 
-var navbar = document.querySelector("#navbar");
+let navbar = document.querySelector("#navbar");
 
-var sticky = navbar.offsetTop;
+let sticky = navbar.offsetTop;
 
 function myFunction() {
     if (window.pageYOffset >= sticky) {
