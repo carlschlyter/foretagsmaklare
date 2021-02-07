@@ -1,0 +1,24 @@
+
+
+#contact-container {
+    padding: 7vh 0;
+}
+
+#contact-page-form {
+    padding-top: 2rem;
+}
+
+#contact-page-container {
+    border: 1px lightgray solid;
+    margin-top: 0.5%;
+    padding: 3rem;
+}
+
+#contact-page-intro {
+    padding-top: 6rem;
+    margin: 3%;
+}
+
+#contact-page-intro h1 {
+    font-size: min(max(2rem, 4vw), 4rem);
+}
