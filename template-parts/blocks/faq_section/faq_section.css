@@ -32,7 +32,7 @@
     margin: 0 10px 0 0;
     width: 30px;
     height: 30px;
-    background: 8px 7px green;
+    background: url(../../../media/iconfinder_icon-ios7-plus-empty_211602_30x30.png) no-repeat white;
     border-radius: 50%;
     float: left;
     transition: all 0.5s ease-in;
@@ -44,6 +44,10 @@
     padding: 3px 0 0 0;
     font-weight: normal;
     color: black;
+}
+
+.active .icon {
+    background: url(../../../media/iconfinder_icon-ios7-minus-empty_211773_30x30.png) no-repeat white;
 }
 
 .panel {

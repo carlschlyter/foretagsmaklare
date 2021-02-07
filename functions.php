@@ -41,6 +41,7 @@ add_image_size('logo', 102, 45, true);
 add_image_size('hero-image-max', 2560, 1200, true);
 add_image_size('hero-image-narrow', 2560, 600, true);
 add_image_size('icon-image', 60, 60, true);
+add_image_size('icon-image-smaller', 30, 30, true);
 add_image_size('icon-image-large', 150, 150, true);
 add_image_size('offers-image', 300, 150, true);
 add_image_size('offers-image-square', 300, 300, true);
@@ -49,6 +50,7 @@ add_image_size('article-image', 600, 450, true);
 add_image_size('miniature-image', 180, 120, true);
 add_image_size('imgtxt-section-image', 375, 250, true);
 add_image_size('imgtxt-section-image-2', 450, 300, true);
+
 
 
 //Menus
@@ -142,6 +144,17 @@ function register_acf_block_types(){
             'description'       => __('Settings for section with some faq and an image'),
             'render_template'   => get_template_directory() . '/template-parts/blocks/faq_section/faq_section.php',
             'enqueue_style'     => get_template_directory_uri() . '/template-parts/blocks/faq_section/faq_section.css',
+            'category'          => 'design',
+        )
+    );    
+
+    acf_register_block_type(
+        array(
+            'name'              => 'contact-section',
+            'title'             => __('Contact Section'),
+            'description'       => __('Settings for section with a contact form'),
+            'render_template'   => get_template_directory() . '/template-parts/blocks/contact_section/contact_section.php',
+            'enqueue_style'     => get_template_directory_uri() . '/template-parts/blocks/contact_section/contact_section.css',
             'category'          => 'design',
         )
     );    
