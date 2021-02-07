@@ -1,24 +1,40 @@
 
-
 #contact-container {
-    padding: 7vh 0;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    position: relative;
 }
 
-#contact-page-form {
-    padding-top: 2rem;
+#contact-container img {
+    margin: 0;
+    padding: 0;
 }
 
-#contact-page-container {
-    border: 1px lightgray solid;
-    margin-top: 0.5%;
-    padding: 3rem;
+#msg-and-form-container {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 14vh;
 }
 
-#contact-page-intro {
-    padding-top: 6rem;
-    margin: 3%;
+#contact-message {
+    padding: 3vw;
 }
 
-#contact-page-intro h1 {
-    font-size: min(max(2rem, 4vw), 4rem);
+#contact-message h2 {
+    color: white;
+}
+
+#contact-message p {
+    color: white;
+    text-align: left;
+}
+
+#contact {
+    padding: 3vw;
+}
+
+#contact input, textarea {
+    margin: 3vh 0;
 }

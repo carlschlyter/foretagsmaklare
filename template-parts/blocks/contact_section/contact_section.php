@@ -3,22 +3,24 @@
 
 $header = get_field('header');
 $intro = get_field('introduction');
-$img = get_field('image');
+$img = get_field('image')['sizes']['hero-image-max'];
 
 ?>
 
-<div class="container" id="contact-container">
+<div class="row" id="contact-container">
 
-    <div class="row" >
+    <img src="<?php echo $img; ?>" alt="" class="img-fluid">
+
+    <div class="col-md-12" >
         <div id="success_message" class="alert alert-success col-md-12" style="display:none"></div>
     </div>
 
-    <div class="row">
+    <div class="col-md-12" id="msg-and-form-container">
 
         <div class="col-md-6" id="contact-message">
 
             <h2> <?php echo $header; ?> </h2>
-            <h4> <?php echo $intro; ?> </h4>
+            <p> <?php echo $intro; ?> </p>
 
         </div>
     
