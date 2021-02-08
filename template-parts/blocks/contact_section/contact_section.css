@@ -15,7 +15,8 @@
     display: flex;
     justify-content: center;
     position: absolute;
-    top: 14vh;
+    /* top: 2vh; */
+    padding-top: 2vh;
 }
 
 #contact-message {
@@ -38,3 +39,76 @@
 #contact input, textarea {
     margin: 3vh 0;
 }
+
+#contact button {
+    opacity: 0.4;
+}
+
+#contact button:hover {
+    opacity: 0.6;
+    box-shadow:10px 5px 5px rgb(161, 153, 161);
+    transition: 0.5s;
+}
+
+@media screen and (max-width: 1366px) {
+
+    #contact input, textarea {
+        margin: 1.5vh 0;
+    }
+
+}
+
+@media screen and (max-width: 1024px) {
+
+    #msg-and-form-container{
+        padding-top: 1vh;
+    }
+
+    #contact input, textarea {
+        margin: 0.5vh 0;
+    }
+
+    #contact-message,
+    #contact {
+        padding-top: 1vw;
+    }
+
+}
+
+@media screen and (max-width: 736px) {
+
+    #msg-and-form-container {
+        display: block;
+    }
+    
+    #contact {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+}
+
+@media screen and (max-width: 414px) {
+
+    #contact-container img {
+        display: none;
+    }
+
+    #msg-and-form-container {
+        background-color: black;
+        position: relative;
+    }
+
+    #contact {
+        display: block;
+        justify-content: center;
+    }
+
+    #contact button {
+        opacity: 1;
+        background-color: white;
+        color: black;
+    }
+    
+}
+

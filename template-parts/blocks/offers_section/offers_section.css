@@ -1,9 +1,14 @@
 
 #offers-container {
-    margin: 2vw 0;
+    margin: 2vw 0 0 0;
     padding-left: 0;
     padding-right: 0;
     width: 100%;
+}
+
+#offers-container a {
+    text-decoration: none;
+    color: black;
 }
 
 #offers-header-container {
@@ -125,5 +130,12 @@
         width: 80vw;
     }
 
+}
+
+@media screen and (max-width: 1024px) {
+    #more-offers-button {
+        width: 30vw;
+        height: 8vw;
+    }
 }
 
