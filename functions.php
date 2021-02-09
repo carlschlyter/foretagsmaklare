@@ -12,6 +12,9 @@ function load_css() {
     wp_register_style('navbar', get_template_directory_uri() . '/css/navbar.css', array(), false, 'all');
     wp_enqueue_style('navbar');
 
+    wp_register_style('footer', get_template_directory_uri() . '/css/footer.css', array(), false, 'all');
+    wp_enqueue_style('footer');
+
 }
 add_action('wp_enqueue_scripts', 'load_css');
 
@@ -160,6 +163,8 @@ function register_acf_block_types(){
     );    
     
 }
+
+
 
 //Contact form
 add_action('wp_ajax_contact', 'contact_form');

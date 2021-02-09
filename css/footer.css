@@ -1,0 +1,39 @@
+
+#footer-section-container{
+    background-color: darkgray;
+    width:100%;
+    padding: 3vh;
+    margin: 0;
+    height: fit-content;
+    display: flex;
+}
+
+#footer-section-web-refs a {
+    text-decoration: none;
+}
+
+#footer-section-web-refs p {
+    text-align: left;
+    text-decoration: none;
+}
+
+#footer-section-info-cred p {
+    text-align: left;
+}
+
+@media screen and (max-width: 736px) {
+
+    #footer-section-web-refs p,
+    #footer-section-info-cred p {
+        font-size: 1.5vw;
+    }
+
+}
+
+@media screen and (max-width: 414px) {
+
+    #footer-section-web-refs p,
+    #footer-section-info-cred p {
+        font-size: 2vw;
+    }
+}

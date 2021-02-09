@@ -50,6 +50,12 @@
     transition: 0.5s;
 }
 
+#success_message {
+    padding: 1%;
+    position: absolute;
+    bottom: 2vh;
+}
+
 @media screen and (max-width: 1366px) {
 
     #contact input, textarea {
@@ -108,6 +114,14 @@
         opacity: 1;
         background-color: white;
         color: black;
+    }
+
+    #contact-message h2 {
+        font-size: 3vh;
+    }
+
+    #contact-message p {
+        font-size: 1.5vh;
     }
     
 }

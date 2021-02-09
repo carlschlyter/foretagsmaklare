@@ -4,13 +4,13 @@
     <nav class="row navbar no-gutters" id="navbar">
 
         <span class="open-slide">
+    
+            <div id="logo-box">
+                <img src="http://localhost/foretagsmaklare/wp-content/uploads/2021/02/Cirion-logga-blå-2-feb_300x132.png" alt="" >
+            </div>
             
             <a href="#" onclick="openSlideMenu()">
     
-                <div id="logo-box">
-                    <img src="http://localhost/foretagsmaklare/wp-content/uploads/2021/02/Cirion-logga-blå-2-feb_300x132.png" alt="" >
-                </div>
-
                 <svg width="30" height="30">
                     <path d="M0,5 30,5" stroke="#fff" stroke-width="5"/>
                     <path d="M0,14 30,14" stroke="#fff" stroke-width="5"/>

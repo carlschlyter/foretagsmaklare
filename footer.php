@@ -1,6 +1,9 @@
 
+<footer class="mt-auto">
 
-<footer></footer>
+    <?php get_template_part('includes/section', 'footer'); ?>
+
+</footer>
 
 <?php wp_footer(); ?>
 

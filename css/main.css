@@ -5,8 +5,14 @@
     box-sizing: border-box;
 }
 
+html, body {
+    height: 100%;
+}
+
 body {
     font-family:'Montserrat', sans-serif;
+    display: flex;
+    flex-direction: column;
 }
 
 body h1 {
