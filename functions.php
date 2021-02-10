@@ -161,6 +161,28 @@ function register_acf_block_types(){
             'category'          => 'design',
         )
     );    
+
+    acf_register_block_type(
+        array(
+            'name'              => 'offers-page-offers-section',
+            'title'             => __('Offers Page Offers Section'),
+            'description'       => __('Settings for section with offers on offers page'),
+            'render_template'   => get_template_directory() . '/template-parts/blocks/offers_page_offers_section/offers_page_offers_section.php',
+            'enqueue_style'     => get_template_directory_uri() . '/template-parts/blocks/offers_page_offers_section/offers_page_offers_section.css',
+            'category'          => 'design',
+        )
+    );    
+
+    acf_register_block_type(
+        array(
+            'name'              => 'main-services-page-section',
+            'title'             => __('Main Services Page Section'),
+            'description'       => __('Settings for main section on services pages'),
+            'render_template'   => get_template_directory() . '/template-parts/blocks/main_services__page_section/main_services__page_section.php',
+            'enqueue_style'     => get_template_directory_uri() . '/template-parts/blocks/main_services__page_section/main_services__page_section.css',
+            'category'          => 'design',
+        )
+    );    
     
 }
 

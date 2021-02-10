@@ -1,7 +1,7 @@
 
 <?php get_header(); ?>
 
-<div class="container-fluid" id="front-page-container">
+<div class="container-fluid" id="general-page-container">
 
     <?php if (have_posts()): ?>
 

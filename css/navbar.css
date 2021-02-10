@@ -20,6 +20,28 @@
     z-index: 2;
 }
 
+#menu-top-bar li .sub-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: #fff;
+    box-shadow: 1px 1px 10px rgb(0, 0, 0, 0.1);
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    width: fit-content;
+}
+
+#menu-top-bar li .sub-menu a {
+    color: black;
+}
+
+#menu-top-bar .menu-item-has-children:hover .sub-menu {
+    display: block;
+}
+
+
 #logo-box {
     margin-left: 8vw;
     height: fit-content;
@@ -85,7 +107,6 @@
     color: white;
     padding: 3px;
     border-radius: 3px;
-    
 }
 
 .side-nav {
@@ -165,6 +186,24 @@
 
     #logo-box {
          display: none;
+    }
+
+    #menu-top-bar-1 li a {
+        text-align: left;
+    }
+
+    #menu-top-bar-1 li .sub-menu {
+        background:black;
+        /* box-shadow: 1px 1px 10px rgb(0, 0, 0, 0.5); */
+        margin: 0 2vw 0 0;
+        padding: 0 0 0 2vw;;
+        list-style-type: none;
+        border: 1px solid white;
+    }
+
+    #menu-top-bar-1 li .sub-menu a {
+        font-size: 1.5vh;
+        text-align: left;
     }
 
 }

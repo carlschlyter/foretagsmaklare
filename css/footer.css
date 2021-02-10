@@ -1,6 +1,6 @@
 
 #footer-section-container{
-    background-color: darkgray;
+    background-color:rgba(81,85,84,255);
     width:100%;
     padding: 3vh;
     margin: 0;
@@ -10,15 +10,18 @@
 
 #footer-section-web-refs a {
     text-decoration: none;
+    color: white;
 }
 
 #footer-section-web-refs p {
     text-align: left;
-    text-decoration: none;
+    /* text-decoration: none; */
+    color: white;
 }
 
 #footer-section-info-cred p {
     text-align: left;
+    color: white;
 }
 
 @media screen and (max-width: 736px) {

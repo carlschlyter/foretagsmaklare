@@ -1,0 +1,157 @@
+
+#header-box {
+    width: 100%;
+    height: 25vh;
+    background-color: rgba(234,232,227,255);
+    position: relative;
+    top: 0;
+    margin: 0;
+    padding: 0;
+}
+
+#header-box h1 {
+    position: absolute;
+    top: 15vh;
+    left: 20vh;
+}
+
+
+#offers-container {
+    margin: 0;
+    padding-left: 0;
+    padding-right: 0;
+    width: 100%;
+}
+
+#offers-container a {
+    text-decoration: none;
+    color: black;
+}
+
+#offers-boxes-container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 3vh 0 3vh 0;
+    padding: 0;
+}
+
+#offers-boxes-box {
+    padding: 3vw;
+}
+
+#offers-boxes-box:hover {
+    box-shadow: 3px 4px thistle;
+    animation-name: breathe_in_offers;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+#offers-boxes-box {
+    animation-name: breathe_out_offers;
+    animation-duration: 1s;
+}
+
+#offers-boxes-image-container {
+    width: 300px;
+    height: auto;
+}
+
+#offers-boxes-descr-container {
+    width: 300px;
+}
+
+#offers-boxes-descr-container h3 {
+    text-align: center;
+    padding-top: 2vw;
+}
+
+#offers-boxes-readmore-container {
+    display: flex;
+    justify-content: center;
+}
+
+#more-offers-button-box {
+    display: flex;
+    justify-content: center;
+    margin: 2.5vw 0;
+    padding: 0;
+}
+
+#more-offers-button {
+    width: 12vw;
+    height: 4vw;
+    opacity: 0.4;
+    text-align: center;
+    margin: auto;
+}
+
+#more-offers-button:hover {
+    opacity: 0.6;
+    box-shadow:10px 5px 5px rgb(161, 153, 161);
+    transition: 0.5s;
+}
+
+#more-offers-button > p {
+    font-size: 1vw;
+    margin: 0;
+    color: #ffffff;
+}
+
+@media screen and (max-width: 1365px) {
+ 
+    #offers-container {
+        display: flex;
+        justify-content: center;
+    }
+
+    #offers-boxes-container {
+        display: block;
+        width: fit-content;
+    }
+
+    #offers-header-container h2 {
+        font-size: 4vw;
+    }
+
+    #offers-boxes-descr-container h3 {
+        font-size: 3vw;
+    }
+
+    #more-offers-button {
+        width: 24vw;
+        height: 12vw;
+    }
+
+    #more-offers-button p {
+        font-size: 2.5vw;
+    }
+
+    #offers-boxes-image-container {
+        width: 80vw;
+        height: auto;
+    }
+
+    #offers-boxes-descr-container {
+        width: 80vw;
+    }
+
+}
+
+@media screen and (max-width: 1024px) {
+    #more-offers-button {
+        width: 30vw;
+        height: 8vw;
+    }
+}
+
+@media screen and (max-width: 414px) {
+
+    #more-offers-button {
+        width: 35vw;
+        height: 8vw;
+    }
+
+}
+
