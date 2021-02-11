@@ -1,0 +1,33 @@
+
+#header-box {
+    width: 100%;
+    height: 25vh;
+    background-color: rgba(234,232,227,255);
+    position: relative;
+    top: 0;
+    margin: 0;
+    padding: 0;
+}
+
+#header-box h1 {
+    position: absolute;
+    top: 15vh;
+    left: 20vh;
+}
+
+#text-image-container {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 5vh;
+}
+
+#reference-container {
+    width: 15vw;
+    height: fit-content;
+    border: 1px solid grey;
+    padding: 1%;
+}
+
+#reference-container p {
+    font-size: 0.8vw;
+}

@@ -41,6 +41,7 @@ add_theme_support('post-thumbnails');
 
 //Add custom image sizes
 add_image_size('logo', 102, 45, true);
+add_image_size('logo-larger', 153, 67.5, true);
 add_image_size('hero-image-max', 2560, 1200, true);
 add_image_size('hero-image-narrow', 2560, 600, true);
 add_image_size('icon-image', 60, 60, true);
@@ -53,6 +54,7 @@ add_image_size('article-image', 600, 450, true);
 add_image_size('miniature-image', 180, 120, true);
 add_image_size('imgtxt-section-image', 375, 250, true);
 add_image_size('imgtxt-section-image-2', 450, 300, true);
+add_image_size('services-pages-main-section-image', 450, 250, true);
 
 
 
@@ -175,11 +177,11 @@ function register_acf_block_types(){
 
     acf_register_block_type(
         array(
-            'name'              => 'main-services-page-section',
-            'title'             => __('Main Services Page Section'),
+            'name'              => 'services-pages-main-section',
+            'title'             => __('Services Pages Main Section'),
             'description'       => __('Settings for main section on services pages'),
-            'render_template'   => get_template_directory() . '/template-parts/blocks/main_services__page_section/main_services__page_section.php',
-            'enqueue_style'     => get_template_directory_uri() . '/template-parts/blocks/main_services__page_section/main_services__page_section.css',
+            'render_template'   => get_template_directory() . '/template-parts/blocks/services_pages_main_section/services_pages_main_section.php',
+            'enqueue_style'     => get_template_directory_uri() . '/template-parts/blocks/services_pages_main_section/services_pages_main_section.css',
             'category'          => 'design',
         )
     );    
