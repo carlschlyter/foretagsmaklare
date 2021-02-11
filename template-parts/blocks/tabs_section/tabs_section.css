@@ -1,0 +1,22 @@
+
+#tabs-container {
+    display: block;
+    width: 100%;
+    padding: 5vw;
+}
+
+#tabs-container > div {
+    display: flex;
+    justify-content: right;
+}
+
+#main-header-container {
+    margin-right: 0;
+    padding: 0;
+}
+
+#tabs-box {
+    /* display: flex;
+    justify-content: right; */
+    width: 100%;
+}

@@ -185,6 +185,17 @@ function register_acf_block_types(){
             'category'          => 'design',
         )
     );    
+
+    acf_register_block_type(
+        array(
+            'name'              => 'tabs-section',
+            'title'             => __('Tabs Section'),
+            'description'       => __('Settings for a tabs section with different info under each tab'),
+            'render_template'   => get_template_directory() . '/template-parts/blocks/tabs_section/tabs_section.php',
+            'enqueue_style'     => get_template_directory_uri() . '/template-parts/blocks/tabs_section/tabs_section.css',
+            'category'          => 'design',
+        )
+    );    
     
 }
 
