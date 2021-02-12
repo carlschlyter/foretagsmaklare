@@ -6,21 +6,31 @@
     margin: 0;
 }
 
+#tabs-container > div {
+    padding: 0;
+}
+
 #main-header-container {
     margin-right: 0;
     padding: 0;
 }
 
 #tabs-box {
-    width: 100%;
+    width: 79%;
     margin-left: auto;
-    margin-left: auto;
+
 }
 
 @media screen and (max-width: 812px) {
 
     .tab-content p {
         font-size: 1.2vw;
+    }
+
+    #tabs-box {
+        width: 100%;
+        margin-left: auto;
+    
     }
 
 }

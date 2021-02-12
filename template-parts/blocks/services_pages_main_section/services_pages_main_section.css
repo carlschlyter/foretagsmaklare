@@ -174,8 +174,9 @@
     }
 
     #header-box h1 {
-        top: 5vh;
+        top: 4vh;
         left: 10vh;
+        font-size: 4vw;
     }
 
     #image-container img {
