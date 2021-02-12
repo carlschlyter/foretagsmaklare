@@ -1,4 +1,9 @@
 
+#services-pages-main-section-container {
+    margin: 0;
+    padding: 0;
+}
+
 #header-box {
     width: 100%;
     height: 25vh;
@@ -18,7 +23,7 @@
 #text-image-container {
     display: flex;
     justify-content: space-evenly;
-    padding-top: 5vh;
+    padding: 5vh 0 0 0;
 }
 
 #reference-container {
@@ -30,4 +35,215 @@
 
 #reference-container p {
     font-size: 0.8vw;
+}
+
+@media screen and (max-width: 1024px) {
+
+    #header-box {
+        height: 15vh;
+    }
+    #header-box h1 {
+        top: 8vh;
+        left: 10vh;
+    }
+
+}
+
+@media screen and (max-width: 812px) {
+
+    #header-box {
+        height: 25vh;
+    }
+
+    #header-box h1 {
+        top: 13vh;
+        left: 10vh;
+        font-size: 2.8vw;
+    }
+
+    #reference-container {
+        margin: 0 2vw;
+        width: 20vw;
+    }
+
+    #reference-container p {
+        font-size: 1.2vw;
+    }
+
+    #header-description-container p {
+        font-size: 1.2vw;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+
+    #header-box {
+        height: 15vh;
+    }
+
+    #header-box h1 {
+        top: 9vh;
+    }
+
+}
+
+@media screen and (max-width: 736px) {
+
+    #header-box {
+        height: 23vh;
+    }
+
+    #header-box h1 {
+        top: 11.5vh;
+        left: 10vh;
+        font-size: 2.8vw;
+    }
+
+    #header-description-container {
+        padding: 0 2vw;
+        width: 60vw;
+    }
+
+    #text-image-container {
+        padding: 3vw;
+    }    
+
+    #reference-container {
+        margin: 0 2vw;
+        width: 40vw;
+    }
+
+    #reference-container p {
+        font-size: 1.2vw;
+    }
+
+    #header-description-container-container {
+        padding: 3vw;
+    }
+
+    #header-description-container p {
+        font-size: 1.2vw;
+    }
+
+}
+
+@media screen and (max-width: 667px) {
+
+    #header-box {
+        height: 20vh;
+    }
+
+    #header-box h1 {
+        top: 8vh;
+        left: 17vh;
+    }
+
+    #reference-container {
+        width: 50vw;
+    }
+
+    #reference-container p {
+        font-size: 1.4vw;
+    }
+
+    #header-description-container {
+        padding: 0 2vw;
+        width: 60vw;
+    }
+
+    #header-description-container p {
+        font-size: 1.4vw;
+    }
+
+}
+
+@media screen and (max-width: 568px) {
+
+    #header-box h1 {
+        top: 7vh;
+        left: 25vh;
+    }
+
+}
+
+@media screen and (max-width: 414px) {
+
+    #header-box {
+        height: 10vh;
+    }
+
+    #header-box h1 {
+        top: 5vh;
+        left: 10vh;
+    }
+
+    #image-container img {
+        display: none;
+    }
+
+    #reference-container {
+        display: none;
+    }
+
+    #header-description-container {
+        padding: 0;
+        margin: 0;
+        width: 100%;
+    }
+
+    #header-description-container h2 {
+        font-size: 2.75vw;
+    }
+
+    #header-description-container p {
+        font-size: 2.25vw;
+    }
+}
+
+@media screen and (max-width: 375px) {
+
+    #image-container img {
+        display: none;
+    }
+
+    #reference-container {
+        display: none;
+    }
+
+    #header-description-container {
+        padding: 0;
+        margin: 0;
+        width: 100%;
+    }
+
+    #header-description-container h2 {
+        font-size: 2.75vw;
+    }
+
+    #header-description-container p {
+        font-size: 2.25vw;
+    }
+
+}
+
+@media screen and (max-width: 320px) {
+
+    #header-box {
+        height: 12vh;
+    }
+
+    #header-box h1 {
+        left: 12vh;
+        font-size: 3.5vw;
+    }
+
+    #header-description-container h2 {
+        font-size: 3.25vw;
+    }
+
+    #header-description-container p {
+        font-size: 2.75vw;
+    }
+
 }

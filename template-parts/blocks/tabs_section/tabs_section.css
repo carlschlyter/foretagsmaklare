@@ -3,11 +3,7 @@
     display: block;
     width: 100%;
     padding: 5vw;
-}
-
-#tabs-container > div {
-    display: flex;
-    justify-content: right;
+    margin: 0;
 }
 
 #main-header-container {
@@ -16,7 +12,54 @@
 }
 
 #tabs-box {
-    /* display: flex;
-    justify-content: right; */
     width: 100%;
+    margin-left: auto;
+    margin-left: auto;
+}
+
+@media screen and (max-width: 812px) {
+
+    .tab-content p {
+        font-size: 1.2vw;
+    }
+
+}
+
+@media screen and (max-width: 667px) {
+
+    .tab-content p {
+        font-size: 1.4vw;
+    }
+
+}
+
+@media screen and (max-width: 414px) {
+
+    #tabs-box h2 {
+        font-size: 2.75vw;
+    }
+
+    #tabs-box h4 {
+        font-size: 2.5vw;
+    }
+
+    .tab-content p {
+        font-size: 2.25vw;
+    }
+}
+
+@media screen and (max-width: 320px) {
+
+    #tabs-box h2 {
+        font-size: 3.25vw;
+    }
+
+    #tabs-box h4 {
+        font-size: 3vw;
+    }
+
+    .tab-content p {
+        font-size: 2.5vw;
+    }
+
 }

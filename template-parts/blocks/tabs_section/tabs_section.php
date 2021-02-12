@@ -36,6 +36,7 @@ $info_text_3 = get_field('info_text_3');
                         <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact" type="button" role="tab" aria-controls="contact" aria-selected="false"> <?php echo $sub_header_3; ?> </button>
                     </li>
                 </ul>
+                
                 <div class="tab-content" id="myTabContent">
                     <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
                         <div class="row">
