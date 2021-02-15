@@ -207,6 +207,17 @@ function register_acf_block_types(){
             'category'          => 'design',
         )
     );    
+
+    acf_register_block_type(
+        array(
+            'name'              => 'header-and-text-section',
+            'title'             => __('Header and Text Section'),
+            'description'       => __('Settings for a header and text section for sales pages'),
+            'render_template'   => get_template_directory() . '/template-parts/blocks/header_and_text_section/header_and_text_section.php',
+            'enqueue_style'     => get_template_directory_uri() . '/template-parts/blocks/header_and_text_section/header_and_text_section.css',
+            'category'          => 'design',
+        )
+    );    
     
 }
 
