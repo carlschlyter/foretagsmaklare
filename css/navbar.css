@@ -218,6 +218,14 @@
 
 }
 
+@media screen and (max-width: 667px) {
+
+    #menu-top-bar-1 li .sub-menu a {
+        font-size: 2.5vh;
+    }
+
+}
+
 
 
 
