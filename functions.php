@@ -196,6 +196,17 @@ function register_acf_block_types(){
             'category'          => 'design',
         )
     );    
+
+    acf_register_block_type(
+        array(
+            'name'              => 'sales-pages-stepbystep-section',
+            'title'             => __('Sales Pages Step By Step Section'),
+            'description'       => __('Settings for step by step section within the sales pages'),
+            'render_template'   => get_template_directory() . '/template-parts/blocks/sales_pages_stepbystep_section/sales_pages_stepbystep_section.php',
+            'enqueue_style'     => get_template_directory_uri() . '/template-parts/blocks/sales_pages_stepbystep_section/sales_pages_stepbystep_section.css',
+            'category'          => 'design',
+        )
+    );    
     
 }
 
