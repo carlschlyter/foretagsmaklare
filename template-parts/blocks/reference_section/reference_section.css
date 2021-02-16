@@ -1,0 +1,165 @@
+
+#reference-container {
+    margin: 0;
+    padding-left: 0;
+    padding-right: 0;
+    width: 100%;
+}
+
+#header-box {
+    width: 100%;
+    height: 25vh;
+    background-color: rgba(234,232,227,255);
+    position: relative;
+    top: 0;
+    margin: 0;
+    padding: 0;
+}
+
+#header-box h1 {
+    position: absolute;
+    top: 15vh;
+    left: 20vh;
+}
+
+#reference-items-container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 3vh 0 3vh 0;
+    padding: 1vh 2vw;
+}
+
+#reference-items-box {
+    margin: 2vh auto;
+    padding: 4vh 4vw;
+}
+
+#reference-items-box img {
+    width: 100%;
+    margin: auto;
+    padding: 0 2vh;
+}
+
+#reference-items-box h2 {
+    text-align: center;
+    margin-top: 2vh;
+}
+
+#reference-items-box > p {
+    text-align: center
+}
+
+
+@media screen and (max-width: 1024px) {
+
+    #header-box {
+        height: 16vh;
+    }
+    
+    #header-box h1 {
+        top: 9vh;
+        left: 13vh;
+    }
+
+}
+
+@media screen and (max-width: 812px) {
+    
+    #reference-items-box h2 {
+        font-size: 3vw;
+    }
+    
+    #reference-items-box p {
+        font-size: 1.5vw;
+    }
+
+    #header-box {
+        height: 25vh;
+    }
+    
+    #header-box h1 {
+        top: 13vh;
+        left: 13vh;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+
+    #header-box {
+        height: 15vh;
+    }
+
+    #header-box h1 {
+        top: 8vh;
+        left: 12vh;
+    }
+
+}
+
+@media screen and (max-width: 736px) {
+
+    #reference-items-box h2 {
+        font-size: 3.5vw;
+    }
+    
+    #reference-items-box p {
+        font-size: 2vw;
+    }
+
+    #header-box {
+        height: 25vh;
+    }
+
+    #header-box h1 {
+        top: 12vh;
+        left: 13vh;
+    }
+
+}
+
+@media screen and (max-width: 667px) {
+
+    #header-box h1 {
+        top: 12vh;
+        left: 20vh;
+    }
+
+}
+
+@media screen and (max-width: 414px) {
+
+    #reference-items-box h2 {
+        font-size: 5vw;
+    }
+    
+    #reference-items-box p {
+        font-size: 3vw;
+    }
+
+    #header-box {
+        height: 12vh;
+    }
+    
+    #header-box h1 {
+        top: 6vh;
+        left: 16vw;
+    }
+
+}
+
+@media screen and (max-width: 375px) {
+
+    #header-box h1 {
+        font-size: 5vw;
+        top: 6vh;
+        left: 19vw;
+    }
+
+}
+
+
+
+

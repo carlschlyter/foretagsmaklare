@@ -55,6 +55,7 @@ add_image_size('miniature-image', 180, 120, true);
 add_image_size('imgtxt-section-image', 375, 250, true);
 add_image_size('imgtxt-section-image-2', 450, 300, true);
 add_image_size('services-pages-main-section-image', 450, 250, true);
+add_image_size('contact-image', 250, 200, true);
 
 
 
@@ -215,6 +216,28 @@ function register_acf_block_types(){
             'description'       => __('Settings for a header and text section for sales pages'),
             'render_template'   => get_template_directory() . '/template-parts/blocks/header_and_text_section/header_and_text_section.php',
             'enqueue_style'     => get_template_directory_uri() . '/template-parts/blocks/header_and_text_section/header_and_text_section.css',
+            'category'          => 'design',
+        )
+    );    
+
+    acf_register_block_type(
+        array(
+            'name'              => 'reference-section',
+            'title'             => __('Reference Section'),
+            'description'       => __('Settings for the reference page'),
+            'render_template'   => get_template_directory() . '/template-parts/blocks/reference_section/reference_section.php',
+            'enqueue_style'     => get_template_directory_uri() . '/template-parts/blocks/reference_section/reference_section.css',
+            'category'          => 'design',
+        )
+    );    
+
+    acf_register_block_type(
+        array(
+            'name'              => 'about-us-page-main-section',
+            'title'             => __('About Us Page Main Section'),
+            'description'       => __('Settings for the main section of the About Us page'),
+            'render_template'   => get_template_directory() . '/template-parts/blocks/about_us_page_main_section/about_us_page_main_section.php',
+            'enqueue_style'     => get_template_directory_uri() . '/template-parts/blocks/about_us_page_main_section/about_us_page_main_section.css',
             'category'          => 'design',
         )
     );    
