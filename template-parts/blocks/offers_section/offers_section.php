@@ -54,7 +54,7 @@ $button_link = get_field('read_more_button_link');
 
     <div class="col-md-12" id="more-offers-button-box">
 
-        <a href="">
+        <a href=" <?php echo $button_link; ?> ">
             
             <button type="button" class="btn btn-dark" id="more-offers-button"> 
                 

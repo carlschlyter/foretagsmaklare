@@ -34,7 +34,7 @@ $quote = get_field('quote');
                
                 <div id="button-box">
 
-                    <a href="">
+                    <a href=" <?php echo $link; ?> ">
                         
                         <button type="button" class="btn btn-dark" id="header-button"> 
                             

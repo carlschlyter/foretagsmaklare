@@ -56,6 +56,7 @@ add_image_size('imgtxt-section-image', 375, 250, true);
 add_image_size('imgtxt-section-image-2', 450, 300, true);
 add_image_size('services-pages-main-section-image', 450, 250, true);
 add_image_size('contact-image', 250, 200, true);
+add_image_size('network-image', 300, 200, true);
 
 
 
@@ -117,6 +118,17 @@ function register_acf_block_types(){
             'description'       => __('Settings for section with a header and text part on one side and an image part on the other'),
             'render_template'   => get_template_directory() . '/template-parts/blocks/text_and_image_section/text_and_image_section.php',
             'enqueue_style'     => get_template_directory_uri() . '/template-parts/blocks/text_and_image_section/text_and_image_section.css',
+            'category'          => 'design',
+        )
+    );    
+
+    acf_register_block_type(
+        array(
+            'name'              => 'alternative-text-and-image-section',
+            'title'             => __('Alternative Text and Image Section'),
+            'description'       => __('Settings for section with a header and a text part on one side and an image part on the other'),
+            'render_template'   => get_template_directory() . '/template-parts/blocks/alternative_text_and_image_section/alternative_text_and_image_section.php',
+            'enqueue_style'     => get_template_directory_uri() . '/template-parts/blocks/alternative_text_and_image_section/alternative_text_and_image_section.css',
             'category'          => 'design',
         )
     );    
