@@ -39,6 +39,14 @@
     justify-content: center;
 }
 
+#contact-info-box > div a {
+    font-size: 1vw;
+}
+
+#contact-info-box > div p {
+    margin: 0;
+}
+
 #contact-description-box p:first-child {
     margin: 0;
 }
@@ -63,7 +71,7 @@
     }
     
     #header-box h1 {
-        top: 13vh;
+        top: 13.5vh;
         left: 12vw;
     }
 
@@ -71,8 +79,13 @@
         font-size: 2vw;
     }
 
-    #contact-info-box > div p, a {
+    #contact-info-box > div p {
         font-size: 1.5vw;
+    }
+
+    #contact-info-box > div a {
+        font-size: 1.5vw;
+        margin: 0;
     }
 
     #contact-description-box p {
@@ -81,10 +94,32 @@
 
 }
 
-@media screen and (max-width: 736px) {
+
+@media screen and (max-width: 768px) {
+
+    #header-box {
+        height: 15vh;
+    }
     
     #header-box h1 {
-        top: 15vh;
+        top: 9vh;
+    }
+
+    #contact-info-box > div a {
+        font-size: 1.5vw;
+    }
+
+
+}
+
+@media screen and (max-width: 736px) {
+    
+    #header-box {
+        height: 25vh;
+    }
+
+    #header-box h1 {
+        top: 16vh;
         font-size: 2.5vw;
     }
 
@@ -100,5 +135,94 @@
         margin: 0;
     }
 
+}
+
+@media screen and (max-width: 667px) {
+    
+    #header-box h1 {
+        top: 12vh;
+        font-size: 3vw;
+    }
+
+}
+
+@media screen and (max-width: 568px) {
+
+    #contact-info-box > div h3 {
+        font-size: 2.5vw;
+    }
+
+    #contact-info-box > div p, a {
+        font-size: 2vw;
+    }
+
+    #contact-description-box p {
+        font-size: 2vw;
+    }
+
+}
+
+@media screen and (max-width: 414px) {
+    
+    #header-box {
+        height: 12vh;
+    }
+
+    #header-box h1 {
+        top: 6vh;
+        left: 15vw;
+        font-size: 4vw;
+    }
+
+    #contact-info-box > div h3 {
+        font-size: 3vw;
+    }
+
+    #contact-info-box > div p, a {
+        font-size: 2.5vw;
+    }
+
+    #contact-description-box p {
+        font-size: 2.5vw;
+    }
+
+}
+
+@media screen and (max-width: 375px) {
+    
+    #header-box {
+        height: 10vh;
+    }
+
+    #header-box h1 {
+        top: 4.5vh;
+        left: 17vw;
+        font-size: 4vw;
+    }
+
+}
+
+@media screen and (max-width: 360px) {
+
+    #contact-info-box > div h3 {
+        font-size: 3.5vw;
+    }
+
+    #contact-info-box > div p, a {
+        font-size: 3vw;
+    }
+
+    #contact-description-box p {
+        font-size: 3vw;
+    }
+
+}
+
+@media screen and (max-width: 320px) {
+
+    #header-box h1 {
+        left: 18vw;
+        font-size: 5vw;
+    }
 
 }
