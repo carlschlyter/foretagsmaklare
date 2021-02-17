@@ -57,6 +57,8 @@ add_image_size('imgtxt-section-image-2', 450, 300, true);
 add_image_size('services-pages-main-section-image', 450, 250, true);
 add_image_size('contact-image', 250, 200, true);
 add_image_size('network-image', 300, 200, true);
+add_image_size('exitpartner-logo', 120, 40, true);
+
 
 
 

@@ -123,7 +123,6 @@ $img = get_field('image')['sizes']['hero-image-max'];
         })
 
 
-
     })
 
 })(jQuery)

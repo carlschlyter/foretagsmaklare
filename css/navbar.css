@@ -9,7 +9,7 @@
     position: absolute;
     top: 1.25vw;
     background-color: #111;
-    opacity: 0.5;
+    opacity: 0.7;
     /* backdrop-filter: blur(5px); */
     margin-right: 0;
     overflow: visible;
@@ -150,11 +150,35 @@
     margin-left: 50px;
 }
 
-@media screen and (max-width: 1365px) {
+@media screen and (max-width: 1366px) {
    
     #logo-box img {
         width: auto;
-        height: 4vh;
+        height: 8vh;
+    }
+
+}
+
+@media screen and (max-width: 1024px) {
+
+    #logo-box img {
+        height: 8vh;
+    }
+
+}
+
+@media screen and (max-width: 812px) {
+
+    #logo-box img {
+        height: 12vh;
+    }
+
+}
+
+@media screen and (max-width: 736px) {
+
+    #logo-box img {
+        height: 10vh;
     }
 
 }

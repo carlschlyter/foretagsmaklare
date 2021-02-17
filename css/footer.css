@@ -24,6 +24,15 @@
     color: white;
 }
 
+.exitpartner-logo-box {
+    display: flex;
+    align-items: center;
+}
+
+.exitpartner-logo-box p {
+    margin-right: 2vw;
+}
+
 @media screen and (max-width: 736px) {
 
     #footer-section-web-refs p,

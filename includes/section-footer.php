@@ -36,12 +36,17 @@ $creds = get_field('exitpartner_cred');
         <?php foreach($creds as $cred) : 
             
         $text = $cred['cred_text'];
-        $logo = $cred['exit_partner_logo'];
+        $logo = $cred['exitpartner_logo']['sizes']['exitpartner-logo'];
             
         ?>
 
-        <p> <?php echo $text; ?> </p> 
-        <img src="<?php echo $logo; ?>" alt="">  
+        <div class="exitpartner-logo-box">
+
+            <p> <?php echo $text; ?> </p> 
+            <img src="<?php echo $logo; ?>" alt="">  
+
+        </div>
+        
 
         <?php endforeach; ?>
         

@@ -6,7 +6,7 @@
         <span class="open-slide">
     
             <div id="logo-box">
-                <img src="http://localhost/foretagsmaklare/wp-content/uploads/2021/02/Cirion-logga-blå-2-feb_153x67.png" alt="" >
+                <img src="http://localhost/foretagsmaklare/wp-content/uploads/2021/02/Cirion-logga-blå-2-feb_300x132.png" alt="" class="img-fluid">
             </div>
 
             <a href="#" onclick="openSlideMenu()">
