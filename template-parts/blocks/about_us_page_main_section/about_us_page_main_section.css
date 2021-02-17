@@ -23,7 +23,9 @@
 #contact-sub-container {
     display: flex;
     padding: 5vh 3vw;
-    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
 }
 
 #img-box img {
@@ -178,7 +180,11 @@
         font-size: 3vw;
     }
 
-    #contact-info-box > div p, a {
+    #contact-info-box > div p {
+        font-size: 2.5vw;
+    }
+
+    #contact-info-box > div a {
         font-size: 2.5vw;
     }
 
