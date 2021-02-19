@@ -48,11 +48,11 @@
 @media screen and (max-width: 812px) {
 
     #header-box {
-        height: 25vh;
+        height: 28vh;
     }
     
     #header-box h1 {
-        top: 13.5vh;
+        top: 17vh;
         left: 12vw;
     }
 
