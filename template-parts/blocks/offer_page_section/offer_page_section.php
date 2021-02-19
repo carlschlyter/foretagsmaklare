@@ -20,12 +20,12 @@ $image = get_field('image')['sizes']['offer-page-image'];
 
     </div>
 
-    <div class="col-md-12" id="offer-page-text-and-image-box">
+    <div class="row" id="offer-page-text-and-image-box">
 
         <div class="col-md-6" id="offer-page-text-box">
 
             <div>
-                <div class="offer-page-text-parts">
+                <div class="offer-page-text-parts" id="offer-page-descr">
                     <p> <?php echo $descr; ?> </p>
                 </div>
                 <div class="offer-page-text-parts" id="offer-page-data">

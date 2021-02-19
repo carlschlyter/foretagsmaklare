@@ -23,10 +23,16 @@
 
 #offer-page-text-and-image-box {
     display: flex;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #offer-page-text-box > div {
     padding: 5vw;
+}
+
+#offer-page-descr p:first-child {
+    margin: 0;
 }
 
 #offer-page-image-box > div {
@@ -49,3 +55,165 @@
     margin-left: 2vw;
     
 }
+
+@media screen and (max-width: 1024px) {
+
+    #header-box {
+        height: 20vh;
+    }
+    
+    #header-box h1 {
+        top: 12vh;
+        left: 8vw;
+    }
+
+    #offer-page-text-box > div p {
+        font-size: 1.5vw;
+    }
+
+    #offer-page-text-box > div a {
+        font-size: 1.5vw;
+    }
+
+}
+
+@media screen and (max-width: 812px) {
+
+    #header-box {
+        height: 28vh;
+    }
+    
+    #header-box h1 {
+        top: 17vh;
+        left: 12vw;
+    }
+
+    #offer-page-text-box > div {
+        padding: 5vw 2vw;
+    }
+
+    #offer-page-text-box > div p {
+        font-size: 2vw;
+    }
+
+    #offer-page-text-box > div a {
+        font-size: 2vw;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+
+    #header-box {
+        height: 15vh;
+    }
+    
+    #header-box h1 {
+        top: 9vh;
+    }
+
+    #offer-page-text-and-image-box{
+        margin-top: 3vh;
+    } 
+
+    #offer-page-text-box > div {
+        padding-bottom: 0;
+    }
+
+    #offer-page-image-box > div {
+        padding-top: 5vh;
+    }
+
+}
+
+@media screen and (max-width: 736px) {
+    
+    #header-box {
+        height: 25vh;
+    }
+
+    #header-box h1 {
+        top: 16vh;
+        font-size: 2.5vw;
+    }
+
+}
+
+@media screen and (max-width: 667px) {
+    
+    #header-box h1 {
+        top: 10vh;
+        font-size: 3vw;
+    }
+
+    #offer-page-text-box > div p {
+        font-size: 2.5vw;
+    }
+
+    #offer-page-text-box > div a {
+        font-size: 2.5vw;
+    }
+
+}
+
+@media screen and (max-width: 414px) {
+    
+    #header-box {
+        height: 12vh;
+    }
+
+    #header-box h1 {
+        top: 6vh;
+        left: 15vw;
+        font-size: 4vw;
+    }
+
+    #offer-page-text-and-image-box {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #offer-page-text-box > div p {
+        font-size: 3vw;
+    }
+
+    #offer-page-text-box > div a {
+        font-size: 3vw;
+    }
+
+}
+
+@media screen and (max-width: 360px) {
+
+    #offer-page-text-box > div p {
+        font-size: 3.5vw;
+    }
+
+    #offer-page-text-box > div a {
+        font-size: 3.5vw;
+    }
+
+    #header-box {
+        height: 13vh;
+    }
+
+    #header-box h1 {
+        top: 7.5vh;
+    }
+
+}
+
+@media screen and (max-width: 320px) {
+
+    #header-box {
+        height: 15vh;
+    }
+
+    #header-box h1 {
+        top: 9vh;
+    }
+
+}
+
+
+
