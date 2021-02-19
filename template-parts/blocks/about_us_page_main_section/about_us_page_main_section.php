@@ -42,7 +42,7 @@ $contacts = get_field('contacts');
 
                         <h3> <?php echo $name; ?> </h3>
                         <p> <?php echo $title; ?> </p>
-                        <p> <?php echo $email; ?> </p>
+                        <a href=" mailto:<?php echo $email; ?> "> <?php echo $email; ?> </a>
                         <p> <?php echo $phone; ?> </p>
                         <a href="<?php echo $link; ?> "> <?php echo $link_text; ?> </a>
 

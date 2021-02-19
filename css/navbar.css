@@ -162,7 +162,7 @@
 @media screen and (max-width: 1024px) {
 
     #logo-box img {
-        height: 8vh;
+        height: 5vh;
     }
 
 }
@@ -171,6 +171,14 @@
 
     #logo-box img {
         height: 12vh;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+
+    #logo-box img {
+        height: 4vh;
     }
 
 }

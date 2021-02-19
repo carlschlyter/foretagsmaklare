@@ -9,6 +9,9 @@ function load_css() {
     wp_register_style('main', get_template_directory_uri() . '/css/main.css', array(), false, 'all');
     wp_enqueue_style('main');
 
+    wp_register_style('hero_image_section', get_template_directory_uri() . '/template-parts/blocks/hero_image_section.css', array(), false, 'all');
+    wp_enqueue_style('hero_image_section');
+
     wp_register_style('navbar', get_template_directory_uri() . '/css/navbar.css', array(), false, 'all');
     wp_enqueue_style('navbar');
 
@@ -58,7 +61,7 @@ add_image_size('services-pages-main-section-image', 450, 250, true);
 add_image_size('contact-image', 250, 200, true);
 add_image_size('network-image', 300, 200, true);
 add_image_size('exitpartner-logo', 120, 40, true);
-
+add_image_size('offer-page-image', 400, 600, true);
 
 
 
@@ -256,6 +259,17 @@ function register_acf_block_types(){
         )
     );    
     
+    acf_register_block_type(
+        array(
+            'name'              => 'offer-page-section',
+            'title'             => __('Offer Page Section'),
+            'description'       => __('Settings for the page with each offer'),
+            'render_template'   => get_template_directory() . '/template-parts/blocks/offer_page_section/offer_page_section.php',
+            'enqueue_style'     => get_template_directory_uri() . '/template-parts/blocks/offer_page_section/offer_page_section.css',
+            'category'          => 'design',
+        )
+    );    
+
 }
 
 

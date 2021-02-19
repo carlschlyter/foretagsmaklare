@@ -1,0 +1,51 @@
+
+
+#offer-page-container {
+    margin: 0;
+    padding: 0;
+}
+
+#header-box {
+    width: 100%;
+    height: 25vh;
+    background-color: rgba(234,232,227,255);
+    position: relative;
+    top: 0;
+    margin: 0;
+    padding: 0;
+}
+
+#header-box h1 {
+    position: absolute;
+    top: 15vh;
+    left: 20vh;
+}
+
+#offer-page-text-and-image-box {
+    display: flex;
+}
+
+#offer-page-text-box > div {
+    padding: 5vw;
+}
+
+#offer-page-image-box > div {
+    padding: 5vw;
+}
+
+#offer-page-image-box > div img {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.offer-page-text-parts {
+    padding: 2vw;
+}
+
+#offer-page-data {
+    border: 1px solid grey;
+    width: fit-content;
+    margin-left: 2vw;
+    
+}
