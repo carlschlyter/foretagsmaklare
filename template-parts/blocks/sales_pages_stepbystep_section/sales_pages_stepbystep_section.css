@@ -105,7 +105,7 @@
     }
 
     #header-box h1 {
-        top: 11.5vh;
+        top: 13.5vh;
         left: 10vh;
         font-size: 2.8vw;
     }
@@ -169,6 +169,23 @@
 
 }
 
+@media screen and (max-width: 640px) {
+
+    #header-box h1 {
+        left: 19vh;
+    }
+
+}
+
+@media screen and (max-width: 568px) {
+
+    #header-box h1 {
+        left: 22vh;
+    }
+
+}
+
+
 @media screen and (max-width: 414px) {
 
     #header-box {
@@ -205,6 +222,10 @@
 
 @media screen and (max-width: 375px) {
 
+    #header-box h1 {
+        font-size: 5vw;
+    } 
+
     #sub-header-box h2 {
         font-size: 4vw;        
     }
@@ -227,11 +248,12 @@
 
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 360px) {
 
     #header-box h1 {
-        left: 18vw;
+        left: 19vw;
         font-size: 5vw;
     }
 
 }
+
