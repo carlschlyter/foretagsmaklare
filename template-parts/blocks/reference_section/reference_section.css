@@ -101,21 +101,22 @@
 
 @media screen and (max-width: 736px) {
 
+
+    #header-box {
+        height: 26vh;
+    }
+
+    #header-box h1 {
+        top: 14vh;
+        left: 13vh;
+    }
+
     #reference-items-box h2 {
         font-size: 3.5vw;
     }
     
     #reference-items-box p {
         font-size: 2vw;
-    }
-
-    #header-box {
-        height: 25vh;
-    }
-
-    #header-box h1 {
-        top: 12vh;
-        left: 13vh;
     }
 
 }
@@ -127,6 +128,14 @@
         left: 20vh;
     }
 
+    #reference-items-box h2 {
+        font-size: 4vw;
+    }
+    
+    #reference-items-box p {
+        font-size: 2.75vw;
+    }
+
 }
 
 @media screen and (max-width: 414px) {
@@ -136,7 +145,7 @@
     }
     
     #reference-items-box p {
-        font-size: 3vw;
+        font-size: 3.25vw;
     }
 
     #header-box {

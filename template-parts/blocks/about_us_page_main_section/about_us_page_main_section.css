@@ -77,22 +77,45 @@
         left: 12vw;
     }
 
+    #contact-sub-container {
+        display: block;
+    }
+
+    #img-box,
+    #contact-info-box,
+    #contact-description-box {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #contact-info-box {
+        margin-top: 3vh;   
+    }
+
     #contact-info-box > div h3 {
         font-size: 2vw;
+        text-align: center;
     }
 
     #contact-info-box > div p {
         font-size: 1.5vw;
+        text-align: center;
     }
 
-    #contact-info-box > div a {
+    #contact-info-box div a {
         font-size: 1.5vw;
         margin: 0;
+    }
+
+    #contact-description-box {
+        margin-top: 3vh;
     }
 
     #contact-description-box p {
         font-size: 1.5vw;
     }
+    
 
 }
 
@@ -137,6 +160,11 @@
         margin: 0;
     }
 
+    #img-box {
+        display: flex;
+        justify-content: center;
+    }
+
 }
 
 @media screen and (max-width: 667px) {
@@ -144,6 +172,22 @@
     #header-box h1 {
         top: 12vh;
         font-size: 3vw;
+    }
+
+    #contact-info-box > div h3 {
+        font-size: 2.5vw;
+    }
+
+    #contact-info-box > div p {
+        font-size: 2vw;
+    }
+
+    #contact-info-box > div a {
+        font-size: 2vw;
+    }
+
+    #contact-description-box p {
+        font-size: 2vw;
     }
 
 }
@@ -177,19 +221,19 @@
     }
 
     #contact-info-box > div h3 {
-        font-size: 3vw;
+        font-size: 3.25vw;
     }
 
     #contact-info-box > div p {
-        font-size: 2.5vw;
+        font-size: 2.75vw;
     }
 
     #contact-info-box > div a {
-        font-size: 2.5vw;
+        font-size: 2.75vw;
     }
 
     #contact-description-box p {
-        font-size: 2.5vw;
+        font-size: 2.75vw;
     }
 
 }

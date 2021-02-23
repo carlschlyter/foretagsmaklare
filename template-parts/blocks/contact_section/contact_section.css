@@ -101,6 +101,14 @@
     #msg-and-form-container {
         display: block;
     }
+
+    #contact-message h2 {
+        font-size: 2.5vw;
+    }
+
+    #contact-message p {
+        font-size: 1.5vw;
+    }
     
     #contact {
         display: flex;
@@ -124,32 +132,85 @@
         display: flex;
     }
 
+    #contact-message h2 {
+        font-size: 3vw;
+    }
+
+    #contact-message p {
+        font-size: 2vw;
+    }
+
     #contact {
         display: block;
     }
 
     #contact .form-group div {
-        height: 5vw;
+        height: 5.5vw;
         position: relative;
     }
 
     #contact .form-group div button {
         position: absolute;
-        top: 22vh;
+        top: 17vh;
     }
 
+}
+
+@media screen and (max-width: 640px) {
+
+    #contact .form-group div {
+        height: 5.75vw;
+    }
+
+    #contact .form-group div button {
+        top: 14.5vh;
+    }
 
 }
 
 @media screen and (max-width: 568px) {
 
+    #contact-container img {
+        display: none;
+    }
+
+    #msg-and-form-container {
+        display: block;
+        background-color: black;
+        position: relative;
+        height: 120vh;
+    }
+
+    #contact button {
+        opacity: 1;
+        background-color: white;
+        color: black;
+    }
+
+    #contact-message h2 {
+        font-size: 5vh;
+    }
+
+    #contact-message p {    
+        display: none;
+    }
+
+    #contact .form-group div {
+        height: 7vw;
+        width: 87vw;
+    }
+
     #contact .form-group div button {
+        top: 17vh;
+    }
+
+    /* #contact .form-group div button {
         top: 20vh;
     }
 
     #contact-message p {
        margin: 0;
-    }
+    } */
 
 }
 
@@ -189,6 +250,48 @@
         top: 8vh;
     }
     
+}
+
+@media screen and (max-width: 375px) {
+
+
+    #msg-and-form-container {
+        height: 53vh;
+    }
+
+    #contact-message h2 {
+        font-size: 3vh;
+    }
+
+    #contact .form-group div input {
+        height: 8vw;
+        width: 87vw;
+    }
+
+}
+
+@media screen and (max-width: 360px) {
+
+    #msg-and-form-container {
+        height: 55vh;
+    }
+
+    #contact .form-group div button {
+        top: 10vh;
+    }
+
+}
+
+@media screen and (max-width: 320px) {
+
+    #msg-and-form-container {
+        height: 57vh;
+    }
+
+    #contact .form-group div button {
+        top: 11vh;
+    }
+
 }
 
 

@@ -14,7 +14,7 @@ $contacts = get_field('contacts');
 
     </div>
 
-    <div class="col-md-12" id="contact-container">
+    <div class="col-md-12" id="about-us-contact-container">
 
         <?php foreach($contacts as $contact) : 
             
@@ -44,7 +44,8 @@ $contacts = get_field('contacts');
                         <p> <?php echo $title; ?> </p>
                         <a href=" mailto:<?php echo $email; ?> "> <?php echo $email; ?> </a>
                         <p> <?php echo $phone; ?> </p>
-                        <a href="<?php echo $link; ?> "> <?php echo $link_text; ?> </a>
+                        <p><a href="<?php echo $link; ?> "> <?php echo $link_text; ?> </a></p>
+                        
 
                     </div>
                     
