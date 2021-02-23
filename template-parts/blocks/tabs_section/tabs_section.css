@@ -22,8 +22,16 @@
 
 @media screen and (max-width: 812px) {
 
+    #main-header-container h2 {
+        font-size: 2.5vw;
+    }
+    
+    .tab-content h4 {
+        font-size: 1.875vw;
+    }
+
     .tab-content p {
-        font-size: 1.2vw;
+        font-size: 1.5vw;
     }
 
     #tabs-box {
@@ -34,10 +42,18 @@
 
 }
 
-@media screen and (max-width: 667px) {
+@media screen and (max-width: 736px) {
+
+    #main-header-container h2 {
+        font-size: 2.75vw;
+    }
+    
+    .tab-content h4 {
+        font-size: 2.2vw;
+    }
 
     .tab-content p {
-        font-size: 1.4vw;
+        font-size: 1.75vw;
     }
 
 }
@@ -45,22 +61,7 @@
 @media screen and (max-width: 414px) {
 
     #tabs-box h2 {
-        font-size: 2.75vw;
-    }
-
-    #tabs-box h4 {
-        font-size: 2.5vw;
-    }
-
-    .tab-content p {
-        font-size: 2.25vw;
-    }
-}
-
-@media screen and (max-width: 320px) {
-
-    #tabs-box h2 {
-        font-size: 3.25vw;
+        font-size: 3.5vw;
     }
 
     #tabs-box h4 {
@@ -72,3 +73,36 @@
     }
 
 }
+
+@media screen and (max-width: 375px) {
+
+    #tabs-box h2 {
+        font-size: 4vw;
+    }
+
+    #tabs-box h4 {
+        font-size: 3.5vw;
+    }
+
+    .tab-content p {
+        font-size: 3vw;
+    }
+    
+}
+
+@media screen and (max-width: 360px) {
+
+    #tabs-box h2 {
+        font-size: 4.25vw;
+    }
+
+    #tabs-box h4 {
+        font-size: 3.75vw;
+    }
+
+    .tab-content p {
+        font-size: 3.25vw;
+    }
+    
+}
+

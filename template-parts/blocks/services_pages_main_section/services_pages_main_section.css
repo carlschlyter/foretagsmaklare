@@ -67,11 +67,15 @@
     }
 
     #reference-container p {
-        font-size: 1.2vw;
+        font-size: 1.5vw;
+    }
+
+    #header-description-container h2 {
+        font-size: 2.5vw;
     }
 
     #header-description-container p {
-        font-size: 1.2vw;
+        font-size: 1.5vw;
     }
 
 }
@@ -95,7 +99,7 @@
     }
 
     #header-box h1 {
-        top: 11.5vh;
+        top: 13.5vh;
         left: 10vh;
         font-size: 2.8vw;
     }
@@ -115,15 +119,19 @@
     }
 
     #reference-container p {
-        font-size: 1.2vw;
+        font-size: 1.75vw;
     }
 
     #header-description-container-container {
         padding: 3vw;
     }
 
+    #header-description-container h2 {
+        font-size: 2.75vw;
+    }
+
     #header-description-container p {
-        font-size: 1.2vw;
+        font-size: 1.75vw;
     }
 
 }
@@ -143,17 +151,9 @@
         width: 50vw;
     }
 
-    #reference-container p {
-        font-size: 1.4vw;
-    }
-
     #header-description-container {
         padding: 0 2vw;
         width: 60vw;
-    }
-
-    #header-description-container p {
-        font-size: 1.4vw;
     }
 
 }
@@ -194,11 +194,11 @@
     }
 
     #header-description-container h2 {
-        font-size: 2.75vw;
+        font-size: 3.5vw;
     }
 
     #header-description-container p {
-        font-size: 2.25vw;
+        font-size: 2.5vw;
     }
 }
 
@@ -219,11 +219,27 @@
     }
 
     #header-description-container h2 {
-        font-size: 2.75vw;
+        font-size: 4vw;
     }
 
     #header-description-container p {
-        font-size: 2.25vw;
+        font-size: 3vw;
+    }
+
+}
+
+@media screen and (max-width: 360px) {
+
+    #header-box h1 {
+        font-size: 5vw;
+    }
+
+    #header-description-container h2 {
+        font-size: 4.25vw;
+    }
+
+    #header-description-container p {
+        font-size: 3.25vw;
     }
 
 }
@@ -236,15 +252,8 @@
 
     #header-box h1 {
         left: 12vh;
-        font-size: 3.5vw;
-    }
-
-    #header-description-container h2 {
-        font-size: 3.25vw;
-    }
-
-    #header-description-container p {
-        font-size: 2.75vw;
+        top: 5vh;
+        font-size: 5.5vw;
     }
 
 }
