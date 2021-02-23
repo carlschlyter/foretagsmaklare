@@ -26,7 +26,9 @@
     padding: 5vh 0 0 0;
 }
 
+/* Element with a quote that was there originally but removed according to customers wish. Just take away the display non part and it will be there again.  */
 #reference-container {
+    display: none;
     width: 15vw;
     height: fit-content;
     border: 1px solid grey;
