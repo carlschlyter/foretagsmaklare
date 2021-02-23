@@ -32,11 +32,11 @@ $quote = get_field('quote');
                 
             ?>
                
-                <div id="button-box">
+                <div class="button-box">
 
                     <a href=" <?php echo $link; ?> ">
                         
-                        <button type="button" class="btn btn-dark" id="header-button"> 
+                        <button type="button" class="btn btn-dark header-button"> 
                             
                             <p> <?php echo $text; ?> </p>
 
@@ -60,7 +60,7 @@ $quote = get_field('quote');
                 
             ?>
 
-                <div id="message-box">
+                <div class="message-box">
 
                     <h2> <?php echo $header; ?> </h2>
                     <p> <?php echo $text; ?> </p>

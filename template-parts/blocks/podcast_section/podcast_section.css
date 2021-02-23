@@ -19,3 +19,67 @@
     color: white;
     margin-bottom: 0;
 }
+
+@media screen and (max-width: 812px) {
+
+    #podcast-section-container h2 {
+        font-size: 3vw;
+    }
+
+    #podcast-section-container p {
+        font-size: 1.5vw;
+    }
+
+}
+
+@media screen and (max-width: 736px) {
+
+    #podcast-section-container h2 {
+        font-size: 3.5vw;
+    }
+
+    #podcast-section-container p {
+        font-size: 2vw;
+    }
+
+}
+
+@media screen and (max-width: 414px) {
+
+    #podcast-section-container h2 {
+        font-size: 3.5vw;
+    }
+
+    #podcast-section-container h4 {
+        font-size: 2.75vw;
+    }
+
+    #podcast-section-container p {
+        font-size: 2.5vw;
+    }
+
+    #podcast-button {
+        height: 3.75vh;
+        width: auto;
+    }
+
+    #podcast-button-box {
+        height: fit-content;
+    }
+}
+
+@media screen and (max-width: 375px) {
+
+    #podcast-section-container {
+        width: 75vw;
+    }
+
+    #podcast-section-container h2 {
+        font-size: 4vw;
+    }
+
+    #podcast-section-container p {
+        font-size: 3vw;
+    }
+
+}

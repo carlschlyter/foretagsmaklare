@@ -33,6 +33,15 @@
     margin-right: 2vw;
 }
 
+@media screen and (max-width: 812px) {
+
+    #footer-section-container p,
+    #footer-section-container a {
+        font-size: 1.25vw;
+    }
+
+}
+
 @media screen and (max-width: 736px) {
 
     #footer-section-web-refs p,
@@ -42,10 +51,20 @@
 
 }
 
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 667px) {
 
     #footer-section-web-refs p,
     #footer-section-info-cred p {
         font-size: 2vw;
     }
+
+}
+
+@media screen and (max-width: 414px) {
+
+    #footer-section-web-refs p,
+    #footer-section-info-cred p {
+        font-size: 2.25vw;
+    }
+
 }

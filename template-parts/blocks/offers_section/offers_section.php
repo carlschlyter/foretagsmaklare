@@ -28,23 +28,27 @@ $button_link = get_field('read_more_button_link');
 
         <div id="offers-boxes-box">
 
-            <div id="offers-boxes-image-container">
-                
-                <img src="<?php echo $image; ?>" alt="" class="img-fluid">
+            <a href=" <?php echo $link; ?> ">
 
-            </div>
+                <div id="offers-boxes-image-container">
+                    
+                    <img src="<?php echo $image; ?>" alt="" class="img-fluid">
 
-            <div id="offers-boxes-descr-container">
-    
-                <h3> <?php echo $descr; ?> </h3>
+                </div>
 
-            </div>
+                <div id="offers-boxes-descr-container">
+        
+                    <h3> <?php echo $descr; ?> </h3>
 
-            <div id="offers-boxes-readmore-container">
+                </div>
 
-                <a href=" <?php echo $link; ?> "> <?php echo $linktxt; ?> </a>
+                <div id="offers-boxes-readmore-container">
 
-            </div>
+                    <a href=" <?php echo $link; ?> "> <?php echo $linktxt; ?> </a>
+
+                </div>
+
+            </a>
         
         </div>
 

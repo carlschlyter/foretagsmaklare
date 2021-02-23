@@ -33,6 +33,18 @@
     display: block;
 }
 
+@media screen and (max-width: 812px) {
+
+    #quote-section-container h3 {
+        font-size: 2vw;
+    }
+
+    #quote-section-container p {
+        font-size: 1.5vw;
+    }
+
+}
+
 @media screen and (max-width: 736px) {
 
     #quote-section-quote-box {
@@ -40,11 +52,35 @@
     }
 
     #quote-section-quote-box h3 {
+        font-size: 2.25vw;
+    }
+    
+    #quote-section-quote-box p {
+        font-size: 1.75vw;
+    }
+}
+
+@media screen and (max-width: 667px) {
+
+    #quote-section-quote-box h3 {
         font-size: 2.5vw;
     }
     
     #quote-section-quote-box p {
         font-size: 2vw;
+    }
+}
+
+@media screen and (max-width: 375px) {
+
+    #quote-section-quote-box h3 {
+        font-size: 3vw;
+        text-align: center;
+    }
+    
+    #quote-section-quote-box p {
+        font-size: 2.5vw;
+
     }
 }
 

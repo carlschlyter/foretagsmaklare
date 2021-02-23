@@ -20,7 +20,7 @@
 }
 
 #contact-message {
-    padding: 3vw;
+    padding: 5vw 3vw 3vw 3vw;
 }
 
 #contact-message h2 {
@@ -41,7 +41,7 @@
 }
 
 #contact button {
-    opacity: 0.4;
+    opacity: 0.6;
 }
 
 #contact button:hover {
@@ -74,9 +74,24 @@
         margin: 0.5vh 0;
     }
 
-    #contact-message,
+    #contact-massage {
+        padding-top: 3vw;
+    }
+
     #contact {
         padding-top: 1vw;
+    }
+
+}
+
+@media screen and (max-width: 812px) {
+
+    #contact-message h2 {
+        font-size: 2.75vw;
+    }
+
+    #contact-message p {
+        font-size: 1.75vw;
     }
 
 }
@@ -90,7 +105,10 @@
     #contact {
         display: flex;
         justify-content: space-evenly;
+    }
 
+    #contact .form-group {
+        width: 40vw;
     }
 
     #contact-message {
@@ -98,17 +116,36 @@
         padding-bottom: 0;   
     }
 
-    #contact-message h2 {
-        font-size: 2.5vw;
+}
+
+@media screen and (max-width: 667px) {
+
+    #msg-and-form-container {
+        display: flex;
     }
-    
-    #contact-message p {
-        font-size: 1.5vw;
+
+    #contact {
+        display: block;
     }
+
+    #contact .form-group div {
+        height: 5vw;
+        position: relative;
+    }
+
+    #contact .form-group div button {
+        position: absolute;
+        top: 22vh;
+    }
+
 
 }
 
 @media screen and (max-width: 568px) {
+
+    #contact .form-group div button {
+        top: 20vh;
+    }
 
     #contact-message p {
        margin: 0;
@@ -123,13 +160,10 @@
     }
 
     #msg-and-form-container {
+        display: block;
         background-color: black;
         position: relative;
-    }
-
-    #contact {
-        display: block;
-        justify-content: center;
+        height: 50vh;
     }
 
     #contact button {
@@ -139,12 +173,22 @@
     }
 
     #contact-message h2 {
-        font-size: 3vh;
+        font-size: 2vh;
     }
 
-    #contact-message p {
-        font-size: 1.5vh;
+    #contact-message p {    
+        display: none;
+    }
+
+    #contact .form-group div {
+        height: 9vw;
+        width: 87vw;
+    }
+
+    #contact .form-group div button {
+        top: 8vh;
     }
     
 }
+
 

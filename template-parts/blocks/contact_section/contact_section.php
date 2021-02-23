@@ -57,7 +57,7 @@ $img = get_field('image')['sizes']['hero-image-max'];
                 <div class="form-group">
 
                     <div>
-                        <textarea name="Meddelande" placeholder="Meddelande" class="form-control" rows="4" required></textarea>
+                        <textarea name="Meddelande" placeholder="Meddelande" class="form-control" rows="3" required></textarea>
                     </div>
 
                 </div>

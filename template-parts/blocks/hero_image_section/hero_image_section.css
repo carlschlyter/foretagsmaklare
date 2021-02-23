@@ -45,11 +45,11 @@
     top: 18vw;
 }
 
-#button-box {
+.button-box {
     margin: 2rem;
 }
 
-#header-button {
+.header-button {
     width: 12vw;
     height: 4vw;
     opacity: 0.4;
@@ -57,74 +57,17 @@
     margin: auto;
 }
 
-#header-button:hover {
+.header-button:hover {
     opacity: 0.6;
     box-shadow:12px 6px 6px rgb(161, 153, 161);
     transition: 0.5s;
 }
 
-#header-button p {
+.header-button p {
     font-size: 1.5vw;
 }
 
-@media screen and (max-width: 1366px) {
-
-    #header-button {
-        width: 18vw;
-        height: 6vw;
-    }
-
-    #header-button p {
-        font-size: 2vw;
-    }
-
-}
-
-@media screen and (max-width: 736px) {
-
-    #button-container {
-        top: 12vw;
-    }
-
-    #header-button {
-        width: 27vw;
-        height: 9vw;
-    }
-
-    #header-button p {
-        font-size: 3vw;
-    }
-
-    #message-box p {
-        font-size: 1.2vw;
-    }
-
-}
-
-@media screen and (max-width: 320px) {
-
-    #hero-header {
-        top: 4vw;
-    }
-
-    #hero-header div h1 {
-        width: 60vw;
-        flex-wrap: wrap;
-        font-size: 4vw;
-    }
-
-}
-
-
-@media screen and (max-width: 340px) {
-
-    #header-button p {
-        font-size: 2.8vw;
-    }
-
-}
-
-#header-button p {
+.header-button p {
     margin: 0;
 }
 
@@ -136,26 +79,14 @@
     height: 12vw;
 }
 
-#message-box {
+.message-box {
     width: 20VW;
     height: 10VW;
 }
 
-#message-box h2, p {
+.message-box h2, p {
     color: #fff;
     text-align: center;
-}
-
-@media screen and (max-width: 414px) {
-
-    #message-container {
-        display: none;
-    }
-
-    #hero-header > div > h1 {
-        font-size: 3.2vw;
-    }
-
 }
 
 #quote-container {
@@ -172,10 +103,134 @@
     font-size: 2.5vw;
 }
 
-@media screen and (min-width: 415px) {
+
+@media screen and (max-width: 1366px) {
+
+    .header-button {
+        width: 18vw;
+        height: 6vw;
+    }
+
+    .header-button p {
+        font-size: 2vw;
+    }
+
+}
+
+@media screen and (max-width: 812px) {
+
+    .message-box h2 {
+        font-size: 2.5vw;
+    }
+
+    .message-box p {
+        font-size: 1.4vw;
+    }
+
+}
+
+@media screen and (max-width: 736px) {
+
+    #button-container {
+        top: 12vw;
+    }
+
+    .header-button {
+        width: 27vw;
+        height: 9vw;
+    }
+
+    .header-button p {
+        font-size: 3vw;
+    }
+
+}
+
+
+@media screen and (max-width: 667px) {
+
+    #hero-header h1 {
+        font-size: 3.5vw;
+    }
+
+}
+
+@media screen and (max-width: 640px) {
+    
+    #button-container {
+        height: fit-content;
+    }
+
+    #message-container {
+        top: 30vw;
+    }
+    
+    .message-box h2 {
+        font-size: 2.75vw;
+    }
+
+    .message-box p {
+        font-size: 1.6vw;
+    }
+
+}
+
+@media screen and (min-width: 569px) {
 
     #quote-container {
         display: none;
     }
+
 }
+
+@media screen and (max-width: 568px) {
+
+    #message-container {
+        display: none;
+    }
+
+    #hero-header > div > h1 {
+        font-size: 3.2vw;
+    }
+
+    #quote-container {
+        top: 35vw;
+    }
+
+}
+
+@media screen and (max-width: 375px) {
+
+    #quote-container h2 {
+        font-size: 3vw;
+    }
+
+}
+
+@media screen and (max-width: 340px) {
+
+    .header-button p {
+        font-size: 2.8vw;
+    }
+
+}
+    
+
+@media screen and (max-width: 320px) {
+
+    #hero-header {
+        top: 4vw;
+    }
+
+    #hero-header div h1 {
+        width: 60vw;
+        flex-wrap: wrap;
+        font-size: 4vw;
+    }
+
+}
+
+
+
+
 
