@@ -29,8 +29,15 @@
     align-items: center;
 }
 
+
+
 .exitpartner-logo-box p {
     margin-right: 2vw;
+}
+
+.exitpartner-logo-box img {
+    background-color: white;
+    padding: 0.25vw;
 }
 
 #adress-parts p {
