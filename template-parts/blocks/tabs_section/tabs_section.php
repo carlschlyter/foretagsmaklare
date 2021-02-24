@@ -15,9 +15,9 @@ $info_text_3 = get_field('info_text_3');
 
     <div>
 
-        <div class="col-md-6" id="tabs-box">
+        <div class="col-md-12" id="tabs-box">
 
-            <div class="col-md-6" id="main-header-container">
+            <div id="main-header-container">
 
                 <h2> <?php echo $main_header; ?> </h2>
 

@@ -16,8 +16,9 @@
 }
 
 #tabs-box {
-    width: 79%;
+    width: 87%;
     margin-left: auto;
+    margin-right: auto;
 }
 
 @media screen and (max-width: 812px) {
@@ -34,12 +35,6 @@
         font-size: 1.5vw;
     }
 
-    #tabs-box {
-        width: 100%;
-        margin-left: auto;
-    
-    }
-
 }
 
 @media screen and (max-width: 736px) {
@@ -54,6 +49,10 @@
 
     .tab-content p {
         font-size: 1.75vw;
+    }
+
+    #tabs-box {
+        width: 100%;
     }
 
 }
