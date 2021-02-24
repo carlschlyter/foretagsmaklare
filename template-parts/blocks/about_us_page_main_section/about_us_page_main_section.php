@@ -23,6 +23,8 @@ $contacts = get_field('contacts');
         $title = $contact['contact_title'];
         $email = $contact['email'];
         $phone = $contact['phone'];
+        $street = $contact['street_adress'];
+        $post_code = $contact['post_code_and_city'];
         $link_text = $contact['link_text'];
         $link = $contact['link'];
         $descr = $contact['description'];
@@ -44,6 +46,8 @@ $contacts = get_field('contacts');
                         <p> <?php echo $title; ?> </p>
                         <a href=" mailto:<?php echo $email; ?> "> <?php echo $email; ?> </a>
                         <p> <?php echo $phone; ?> </p>
+                        <p> <?php echo $street; ?> </p>
+                        <p> <?php echo $post_code; ?> </p>
                         <p><a href="<?php echo $link; ?> "> <?php echo $link_text; ?> </a></p>
                         
 

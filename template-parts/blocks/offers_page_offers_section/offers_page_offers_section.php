@@ -27,24 +27,28 @@ $offers = get_field('offers_boxes');
 
         <div id="offers-boxes-box">
 
-            <div id="offers-boxes-image-container">
-                
-                <img src="<?php echo $image; ?>" alt="" class="img-fluid">
-
-            </div>
-
-            <div id="offers-boxes-descr-container">
-    
-                <h3> <?php echo $descr; ?> </h3>
-
-            </div>
-
-            <div id="offers-boxes-readmore-container">
-
-                <a href=" <?php echo $link; ?> "> <?php echo $linktxt; ?> </a>
-
-            </div>
+            <a href=" <?php echo $link; ?> ">
         
+                <div id="offers-boxes-image-container">
+                    
+                    <img src="<?php echo $image; ?>" alt="" class="img-fluid">
+
+                </div>
+
+                <div id="offers-boxes-descr-container">
+        
+                    <h3> <?php echo $descr; ?> </h3>
+
+                </div>
+
+                <div id="offers-boxes-readmore-container">
+
+                    <a href=" <?php echo $link; ?> "> <?php echo $linktxt; ?> </a>
+
+                </div>
+            
+            </a>      
+            
         </div>
 
         <?php endforeach; ?>
