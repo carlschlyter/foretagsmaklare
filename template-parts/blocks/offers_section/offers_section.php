@@ -19,7 +19,7 @@ $button_link = get_field('read_more_button_link');
 
         <?php foreach($offers as $offer) : 
          
-         $image = $offer['image']['sizes']['offers-image-square-large'];
+         $image = $offer['image']['sizes']['offers-image-square-actual'];
          $descr = $offer['description'];
          $linktxt = $offer['link_text'];
          $link = $offer['link'];

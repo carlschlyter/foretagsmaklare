@@ -51,11 +51,11 @@ $creds = get_field('exitpartner_cred');
                     <p> <?php echo $ref; ?> </p>   
                 </a>
 
-                <p> <?php echo $copy_right; ?> </p>
-
             </div>
 
         <?php endforeach; ?>  
+
+        <p> <?php echo $copy_right; ?> </p>
         
     </div>
 

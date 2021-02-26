@@ -14,6 +14,20 @@
     margin: 0;
 }
 
+#alternative-hero {
+    height: 80vh;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+#alternative-hero video {
+    height: 80%;
+    width: 100%;
+    position: absolute;
+    object-fit: cover;
+}
+
 #hero-box img {
     padding: 0;
 }
@@ -125,6 +139,15 @@
 
     .message-box p {
         font-size: 1.4vw;
+    }
+
+}
+
+
+@media screen and (max-width: 768px) {
+
+    #hero-header h1 {
+        font-size: 3vw;
     }
 
 }

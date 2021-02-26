@@ -36,13 +36,19 @@
     padding: 4vh 4vw;
 }
 
+.reference-img-box {
+    height: 23vh;
+    display: flex;
+    align-items: center;
+}
+
 #reference-items-box img {
     width: 100%;
     margin: auto;
     padding: 0 2vh;
 }
 
-#reference-items-box h2 {
+#reference-items-box h3 {
     text-align: center;
     margin-top: 2vh;
 }
@@ -50,7 +56,6 @@
 #reference-items-box > p {
     text-align: center
 }
-
 
 @media screen and (max-width: 1024px) {
 
@@ -65,10 +70,22 @@
 
 }
 
+@media screen and (min-width: 768px) {
+
+    #reference-items-container {
+        margin-top: 0;
+    }
+
+    #reference-items-box {
+        margin-top:0;
+    }
+    
+}
+
 @media screen and (max-width: 812px) {
     
-    #reference-items-box h2 {
-        font-size: 3vw;
+    #reference-items-box h3 {
+        font-size: 2vw;
     }
     
     #reference-items-box p {
@@ -111,8 +128,15 @@
         left: 13vh;
     }
 
-    #reference-items-box h2 {
-        font-size: 3.5vw;
+    .reference-img-box {
+        width: 50vw;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #reference-items-box h3 {
+        font-size: 2.5vw;
     }
     
     #reference-items-box p {
@@ -128,8 +152,8 @@
         left: 20vh;
     }
 
-    #reference-items-box h2 {
-        font-size: 4vw;
+    #reference-items-box h3 {
+        font-size: 3vw;
     }
     
     #reference-items-box p {
@@ -140,8 +164,8 @@
 
 @media screen and (max-width: 414px) {
 
-    #reference-items-box h2 {
-        font-size: 5vw;
+    #reference-items-box h3 {
+        font-size: 4vw;
     }
     
     #reference-items-box p {

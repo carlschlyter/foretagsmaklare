@@ -13,6 +13,10 @@
     color: white;
 }
 
+#footer-section-web-refs > p {
+    margin-top: 2vh;
+}
+
 #footer-section-web-refs p {
     text-align: left;
     /* text-decoration: none; */
@@ -28,8 +32,6 @@
     display: flex;
     align-items: center;
 }
-
-
 
 .exitpartner-logo-box p {
     margin-right: 2vw;

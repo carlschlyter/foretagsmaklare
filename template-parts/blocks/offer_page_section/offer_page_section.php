@@ -29,13 +29,20 @@ $image = get_field('image')['sizes']['offer-page-image'];
                     <p> <?php echo $descr; ?> </p>
                 </div>
                 <div class="offer-page-text-parts" id="offer-page-data">
-                    <p> <?php echo $turnover; ?> </p>
-                    <p> <?php echo $result; ?> </p>
+                    <ul>
+                        <?php if($turnover) : ?>
+                            <li> <?php echo $turnover; ?> </li>
+                        <?php endif; ?>    
+    
+                        <?php if($result) : ?>
+                            <li> <?php echo $result; ?> </li>                            
+                        <?php endif; ?>
+                    </ul>
                 </div>
-                <div class="offer-page-text-parts">
-                    <p> <?php echo $contact; ?> </p>
-                    <a href=" mailto:<?php echo $email; ?> "> <?php echo $email; ?> </a>
-                    <p> <?php echo $phone; ?> </p>
+                <div class="offer-page-text-parts" id="offer-page-contact-parts">
+                    <p> Kontakta <?php echo $contact; ?> för mer information. </p>
+                    <p>Email: <a href=" mailto:<?php echo $email; ?> "> <?php echo $email; ?> </a></p>
+                    <p> Mobil: <?php echo $phone; ?> </p>
                 </div>
                 
             </div>

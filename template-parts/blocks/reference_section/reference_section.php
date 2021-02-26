@@ -27,9 +27,13 @@ $refs = get_field('references');
 
         <div class="col-md-4" id="reference-items-box">
 
-            <img src=" <?php echo $img; ?> " alt="" class="img-fluid">
+            <div class="reference-img-box">
 
-            <h2> <?php echo $header; ?> </h2>
+                <img src=" <?php echo $img; ?> " alt="" class="img-fluid">
+                
+            </div>
+        
+            <h3> <?php echo $header; ?> </h3>
 
             <p> <?php echo $location; ?> </p>
 

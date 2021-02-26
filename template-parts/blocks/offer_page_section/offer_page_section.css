@@ -31,6 +31,10 @@
     padding: 5vw;
 }
 
+#offer-page-descr {
+    padding-bottom: 0;
+}
+
 #offer-page-descr p:first-child {
     margin: 0;
 }
@@ -50,10 +54,15 @@
 }
 
 #offer-page-data {
-    border: 1px solid grey;
     width: fit-content;
-    margin-left: 2vw;
-    
+    margin-left: 2vw;    
+}
+
+#offer-page-contact-parts p {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 0;
+    padding-bottom: 0;
 }
 
 @media screen and (max-width: 1024px) {

@@ -43,7 +43,7 @@
 
 
 #logo-box {
-    margin-left: 8vw;
+    margin-left: 4vw;
     height: fit-content;
 }
 
@@ -169,6 +169,10 @@
 
 @media screen and (max-width: 812px) {
 
+    #logo-box {
+        margin-left: 0;
+    }
+
     #logo-box img {
         height: 12vh;
     }
@@ -183,15 +187,15 @@
 
 }
 
-@media screen and (max-width: 736px) {
+/* @media screen and (max-width: 736px) {
 
     #logo-box img {
         height: 10vh;
     }
 
-}
+} */
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 736px) {
 
     #menu-top-bar li {     
         display: none;        
@@ -240,7 +244,7 @@
 
 }
 
-@media screen and (min-width: 701px) {
+@media screen and (min-width: 737px) {
 
     .open-slide > a > svg{
      
