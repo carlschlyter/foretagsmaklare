@@ -21,7 +21,7 @@ $quote = get_field('quote');
             loop 
             preload="auto"
             >
-                <source src="wp-content/themes/foretagsmaklare/media/hero_video.mp4" type="video/mp4">
+                <source src="wp-content/themes/foretagsmaklare/media/hero_video_2.mp4" type="video/mp4">
                 Din webbläsare stödjer inte videouppspelning.
             </video>
 

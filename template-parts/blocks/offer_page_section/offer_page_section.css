@@ -21,14 +21,46 @@
     left: 20vh;
 }
 
+#next-offer {
+    display: flex;
+    justify-content: center;
+    margin-top: 3vh;
+}
+
+#next-offer a {
+    text-decoration: none;
+    color: lightgrey;
+}
+
+#next-offer h4 {
+    color: lightgrey;
+}
+
+#next-offer :first-child h4 {
+    margin-right: 0.5vw;
+}
+
+#next-offer-content-box {
+    display: flex;
+}
+
 #offer-page-text-and-image-box {
     display: flex;
     margin-left: auto;
     margin-right: auto;
 }
 
+
+#offer-page-sub-header {
+    padding: 0 0 0 2vw;
+}
+
 #offer-page-text-box > div {
     padding: 5vw;
+}
+
+.offer-page-text-parts {
+    padding: 2vw;
 }
 
 #offer-page-descr {
@@ -47,10 +79,6 @@
     width: 100%;
     margin-left: auto;
     margin-right: auto;
-}
-
-.offer-page-text-parts {
-    padding: 2vw;
 }
 
 #offer-page-data {
@@ -97,8 +125,16 @@
         left: 12vw;
     }
 
+    #next-offer h4 {
+        font-size: 1.5vw;
+    }
+
     #offer-page-text-box > div {
         padding: 5vw 2vw;
+    }
+
+    #offer-page-text-box > div h3 {
+        font-size: 2.5vw;
     }
 
     #offer-page-text-box > div p {
@@ -142,8 +178,12 @@
     }
 
     #header-box h1 {
-        top: 16vh;
-        font-size: 2.5vw;
+        top: 13vh;
+        font-size: 3vw;
+    }
+
+    #next-offer h4 {
+        font-size: 2vw;
     }
 
 }
@@ -153,6 +193,10 @@
     #header-box h1 {
         top: 10vh;
         font-size: 3vw;
+    }
+
+    #next-offer h4 {
+        font-size: 2vw;
     }
 
     #offer-page-text-box > div p {
@@ -177,7 +221,12 @@
         font-size: 4vw;
     }
 
+    #next-offer h4 {
+        font-size: 2.5vw;
+    }
+
     #offer-page-text-and-image-box {
+        margin-top: 0;
         margin-left: auto;
         margin-right: auto;
     }

@@ -34,7 +34,7 @@
 
 #hero-header {
     position: absolute;
-    top: 8vw; 
+    top: 11vw; 
     padding: 0;
     text-align: center;
     display: flex;
@@ -129,6 +129,14 @@
         font-size: 2vw;
     }
 
+    #alternative-hero {
+        height: 60vh;
+    }
+    
+    #alternative-hero video {
+        height: 60%;
+    }
+
 }
 
 @media screen and (max-width: 812px) {
@@ -141,6 +149,14 @@
         font-size: 1.4vw;
     }
 
+    #alternative-hero {
+        height: 100vh;
+    }
+    
+    #alternative-hero video {
+        height: 100%;
+    }
+
 }
 
 
@@ -148,6 +164,14 @@
 
     #hero-header h1 {
         font-size: 3vw;
+    }
+
+    #alternative-hero {
+        height: 38vh;
+    }
+    
+    #alternative-hero video {
+        height: 38%;
     }
 
 }
@@ -165,6 +189,14 @@
 
     .header-button p {
         font-size: 3vw;
+    }
+
+    #alternative-hero {
+        height: 85vh;
+    }
+    
+    #alternative-hero video {
+        height: 85%;
     }
 
 }
@@ -218,6 +250,18 @@
 
     #quote-container {
         top: 35vw;
+    }
+
+}
+
+@media screen and (max-width: 414px) {
+
+    #alternative-hero {
+        height: 30vh;
+    }
+    
+    #alternative-hero video {
+        height: 30%;
     }
 
 }

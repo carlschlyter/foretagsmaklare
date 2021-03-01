@@ -8,7 +8,9 @@ $result = get_field('result_info');
 $contact = get_field('contact_info');
 $email = get_field('email');
 $phone = get_field('phone');
-$image = get_field('image')['sizes']['offer-page-image'];
+$image = get_field('image')['sizes']['offers-image-square'];
+$link_text = get_field('next_offer_link_text');
+$link = get_field('next_offer_link');
 
 ?>
 
@@ -20,11 +22,23 @@ $image = get_field('image')['sizes']['offer-page-image'];
 
     </div>
 
+    <div id="next-offer">
+        <a href="<?php echo $link; ?> ">
+           <div id="next-offer-content-box">
+                <h4>Andra bolag till salu: >></h4>
+                <h4> <?php echo $link_text; ?> </h4>
+            </div>
+        </a>
+    </div>
+
     <div class="row" id="offer-page-text-and-image-box">
 
         <div class="col-md-6" id="offer-page-text-box">
 
             <div>
+                <div id="offer-page-sub-header">
+                    <h3> <?php echo $main_header; ?> </h3>
+                </div>
                 <div class="offer-page-text-parts" id="offer-page-descr">
                     <p> <?php echo $descr; ?> </p>
                 </div>
