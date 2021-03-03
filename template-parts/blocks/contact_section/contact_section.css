@@ -11,12 +11,18 @@
     padding: 0;
 }
 
+#contact-container-img {
+    margin: 0;
+    padding: 0;    
+}
+
 #msg-and-form-container {
     display: flex;
     justify-content: center;
     position: absolute;
     /* top: 2vh; */
-    padding-top: 2vh;
+    padding-top: 2vh 0 0 0;
+    margin: 0;
 }
 
 #contact-message {

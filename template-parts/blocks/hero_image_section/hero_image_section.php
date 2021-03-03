@@ -13,7 +13,7 @@ $quote = get_field('quote');
 
     <div class="row" id="hero-box">
 
-        <div id="alternative-hero">
+        <!-- <div id="alternative-hero">
 
             <video 
             autoplay 
@@ -21,14 +21,16 @@ $quote = get_field('quote');
             loop 
             preload="auto"
             >
-                <source src="wp-content/themes/foretagsmaklare/media/hero_video_2.mp4" type="video/mp4">
+                <source src="wp-content/themes/foretagsmaklare/media/hero_video.mp4" type="video/mp4">
                 Din webbläsare stödjer inte videouppspelning.
             </video>
 
+        </div> -->
+    
+        <div class="col-md-12" id="hero-subcontainer-img">
+            <img src="<?php echo $image; ?>" alt="Hero Image" class="img-fluid">
         </div>
     
-        <!-- <img src="<?php echo $image; ?>" alt="Hero Image" class="img-fluid"> -->
-        
         <div class="col-md-12" id="hero-header">
 
             <div>

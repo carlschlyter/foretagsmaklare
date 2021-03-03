@@ -64,6 +64,7 @@ add_image_size('services-pages-main-section-image', 450, 250, true);
 add_image_size('contact-image', 200, 250, true);
 add_image_size('network-image', 300, 200, true);
 add_image_size('exitpartner-logo', 120, 40, true);
+add_image_size('cirion-footer-logo', 190, 40, true);
 
 
 

@@ -53,7 +53,7 @@ $txtimgs = get_field('text_and_image');
 
             <div class="col-md-6 text-image-image-box">
 
-                <img src="<?php echo $img; ?> " alt="">
+                <img src="<?php echo $img; ?> " alt="" class="img-fluid">
 
             </div>
 
@@ -65,7 +65,7 @@ $txtimgs = get_field('text_and_image');
 
             <div class="col-md-6 text-image-image-box"> 
 
-                <img src="<?php echo $img; ?> " alt="">
+                <img src="<?php echo $img; ?> " alt="" class="img-fluid">
 
             </div>
 

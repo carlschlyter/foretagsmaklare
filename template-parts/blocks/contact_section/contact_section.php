@@ -9,7 +9,9 @@ $img = get_field('image')['sizes']['hero-image-max'];
 
 <div class="row" id="contact-container">
 
-    <img src="<?php echo $img; ?>" alt="" class="img-fluid">
+    <div class="col-md-12" id="contact-container-img">
+        <img src="<?php echo $img; ?>" alt="" class="img-fluid">
+    </div>
 
     <div id="success_message" class="alert alert-success col-md-12" style="display:none"></div>
 

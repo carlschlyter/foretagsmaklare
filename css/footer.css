@@ -49,6 +49,10 @@
     padding-bottom: 0;
 }
 
+#developed-by p {
+    font-size: 0.75vw;
+}
+
 @media screen and (max-width: 812px) {
 
     #footer-section-container p,

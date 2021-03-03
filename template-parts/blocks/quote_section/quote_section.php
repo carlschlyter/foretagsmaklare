@@ -10,7 +10,9 @@ $lnk = get_field('link');
 
 <div class="row" id="quote-section-container">
 
-    <img src="<?php echo $img; ?>" alt="" class="img-fluid">
+    <div class="col-md-12" id="quote-section-container-image">
+        <img src="<?php echo $img; ?>" alt="" class="img-fluid">
+    </div>
 
     <div class="col-md-12" id="quote-section-quote-box">
 

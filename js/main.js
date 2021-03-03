@@ -43,3 +43,11 @@ function myFunction() {
         navbar.classList.remove("sticky");
     }
 }
+
+//Getting rid of the L SEP issue on contact page
+
+$(document).ready(function() {
+    $("body").children().each(function() {
+        $(this).html($(this).html().replace(/&#8232;/g," "));
+    });
+});

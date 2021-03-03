@@ -16,7 +16,7 @@ $link = get_field('link');
         <p> <?php echo $descr; ?> </p>
     </div>
 
-    <a class="col-md-12" id="podcast-button-box" href=" <?php echo $link; ?> ">
+    <a class="col-md-12" id="podcast-button-box" href=" <?php echo $link; ?> " target="_blank">
 
         <button type="button" class="btn btn-dark" id="podcast-button">
     

@@ -3,6 +3,7 @@
 
 $web_refs = get_field('web_refs');
 $adress_parts = get_field('adress_parts');
+$cirion_logo = get_field('cirion_logo')['sizes']['cirion-footer-logo'];
 $copy_right = get_field('copy_right_notion');
 $info = get_field('info');
 $creds = get_field('exitpartner_cred');
@@ -55,7 +56,13 @@ $creds = get_field('exitpartner_cred');
 
         <?php endforeach; ?>  
 
+        <div>
+            <img src="<?php echo $cirion_logo; ?> " alt="">
+        </div>
+        
         <p> <?php echo $copy_right; ?> </p>
+
+        <a href="https://carlschlyterweb.com" target="_blank" id="developed-by"><p>Developed by carl schlyter web</p></a>
         
     </div>
 
@@ -70,13 +77,15 @@ $creds = get_field('exitpartner_cred');
             
         ?>
 
-            <div class="exitpartner-logo-box">
+                <div class="exitpartner-logo-box">
 
-                <p> <?php echo $text; ?> </p> 
-                <img src="<?php echo $logo; ?>" alt="">  
+                        <p> <?php echo $text; ?> </p> 
+                        <a href="https://www.exitpartner.se" target="_blank">
+                            <img src="<?php echo $logo; ?>" alt="">  
+                        </a>    
+                    
+                </div>
 
-            </div>
-    
         <?php endforeach; ?>
         
     </div>
