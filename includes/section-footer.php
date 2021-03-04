@@ -57,9 +57,9 @@ $creds = get_field('exitpartner_cred');
         <?php endforeach; ?>  
 
         <div>
-            <img src="<?php echo $cirion_logo; ?> " alt="">
+            <img src="<?php echo $cirion_logo; ?> " alt="" class="img-fluid">
         </div>
-        
+
         <p> <?php echo $copy_right; ?> </p>
 
         <a href="https://carlschlyterweb.com" target="_blank" id="developed-by"><p>Developed by carl schlyter web</p></a>

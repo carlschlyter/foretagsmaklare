@@ -14,7 +14,7 @@
     margin: 0;
 }
 
-#alternative-hero {
+/* #alternative-hero {
     height: 80vh;
     width: 100%;
     padding: 0;
@@ -22,11 +22,11 @@
 }
 
 #alternative-hero video {
-    height: 80%;
+    height: auto;
     width: 100%;
     position: absolute;
-    object-fit: cover;
-}
+    object-fit: scale-down;   
+} */
 
 #hero-box img {
     padding: 0;

@@ -13,17 +13,22 @@ $quote = get_field('quote');
 
     <div class="row" id="hero-box">
 
-        <!-- <div id="alternative-hero">
+        <!-- <div class="col-md-12" id="alternative-hero">
 
-            <video 
-            autoplay 
-            muted 
-            loop 
-            preload="auto"
-            >
-                <source src="wp-content/themes/foretagsmaklare/media/hero_video.mp4" type="video/mp4">
-                Din webbläsare stödjer inte videouppspelning.
-            </video>
+            <div class="jumbotron jumbotron-fluid">
+                <div class="container-fluid">
+                    <video 
+                    autoplay 
+                    muted 
+                    loop 
+                    preload="auto"
+                    class="img-fluid"
+                    >
+                        <source src="wp-content/themes/foretagsmaklare/media/hero_video.mp4" type="video/mp4" >
+                        Din webbläsare stödjer inte videouppspelning.
+                </video>
+                </div>
+            </div>
 
         </div> -->
     

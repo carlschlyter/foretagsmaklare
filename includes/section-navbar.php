@@ -6,9 +6,9 @@
         <span class="open-slide">
     
             <div id="logo-box">            
-                <!-- <img src="http://localhost/foretagsmaklare/wp-content/uploads/2021/03/Logga-Cirion-FM_dark_background_1.png" alt="" class="img-fluid"> -->
+                <!-- <img src="http://localhost/foretagsmaklare/wp-content/uploads/2021/03/Logga-Cirion-FM_dark_background_navbar.png" alt="" class="img-fluid"> -->
 
-                <img src="http://foretagsmaklare.org/wp-content/uploads/2021/03/Logga-Cirion-FM_dark_background_1.png" alt="" class="img-fluid">
+                <img src="http://foretagsmaklare.org/wp-content/uploads/2021/03/Logga-Cirion-FM_dark_background_navbar.png" alt="" class="img-fluid">
             </div>
 
             <a href="#" onclick="openSlideMenu()">
