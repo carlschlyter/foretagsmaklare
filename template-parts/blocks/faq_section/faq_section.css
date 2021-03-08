@@ -69,6 +69,13 @@
     text-align: left;
 }
 
+.faq-img-box img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 1%;
+    object-fit: scale-down;
+}
+
 @media screen and (max-width: 812px) {
 
     #faq-container h2 {

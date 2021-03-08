@@ -15,6 +15,9 @@ $creds = get_field('exitpartner_cred');
 
     <div class="col-md-6" id="footer-section-web-refs">
 
+            <div>
+                <img src="<?php echo $cirion_logo; ?> " alt="" class="img-fluid">
+            </div>
 
         <?php foreach($adress_parts as $adress_part) : 
         
@@ -55,10 +58,6 @@ $creds = get_field('exitpartner_cred');
             </div>
 
         <?php endforeach; ?>  
-
-        <div>
-            <img src="<?php echo $cirion_logo; ?> " alt="" class="img-fluid">
-        </div>
 
         <p> <?php echo $copy_right; ?> </p>
 

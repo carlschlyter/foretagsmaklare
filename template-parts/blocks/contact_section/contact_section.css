@@ -286,6 +286,13 @@
         top: 10vh;
     }
 
+    #contact .form-group div input {
+        height: 7vw;
+        width: 87vw;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
 }
 
 @media screen and (max-width: 320px) {
