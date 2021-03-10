@@ -130,6 +130,10 @@
         padding-bottom: 0;   
     }
 
+    #contact .form-group div input {
+        height: 4vw;
+    }
+
 }
 
 @media screen and (max-width: 667px) {
