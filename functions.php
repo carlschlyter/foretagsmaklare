@@ -284,6 +284,12 @@ add_action('wp_ajax_nopriv_contact', 'contact_form');
 
 function contact_form(){
 
+    // if(filter_has_var(INPUT_POST, 'data')){
+    //     echo 'Data found';
+    // } else {
+    //     echo 'No data';
+    // }
+
     $formdata = [];
 
     wp_parse_str($_POST['contact'], $formdata);
@@ -310,24 +316,37 @@ function contact_form(){
         $message .= '<strong>' . $index . '</strong>: ' . $field . '<br/>';
     }
 
-    try {
+    //Captcha
+    // $secretKey = '6LcvdXkaAAAAAGL_U30vQlqVJg6MmKZIJkURc4X2';
+    // $responseKey = $_POST['g-recaptcha-response'];
+    // $UserIP = $_SERVER['REMOTE_ADDR'];
+    // $url = "https://www.google.com/recaptcha/api/siteverify?secret=$secretKey&response=$responseKey&remoteip=$UserIP";
 
-        if(wp_mail($send_to, $subject, $message, $headers)){
+    // $response = file_get_contents($url);
+    // $response = json_decode($response);
 
-            wp_send_json_success('E-post skickat');
+    // if($response->success) { }
 
+
+        try {
+    
+            if(wp_mail($send_to, $subject, $message, $headers)){
+
+                wp_send_json_success('E-post skickat');
+    
+            }
+            else {
+    
+                wp_send_json_error('E-post fel');
+    
+            }
+                
+    
+        } catch (Exception $e){
+    
+                wp_send_json_error($e-> getMessage());
         }
-        else {
-
-            wp_send_json_error('E-post fel');
-
-        }
-
-    } catch (Exception $e){
-
-            wp_send_json_error($e-> getMessage());
-    }
-
+    
 
 }
 

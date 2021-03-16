@@ -62,6 +62,10 @@
     bottom: 2vh;
 }
 
+/* #captcha {
+    height: fit-content;
+} */
+
 @media screen and (max-width: 1366px) {
 
     #contact input, textarea {

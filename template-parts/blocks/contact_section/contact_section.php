@@ -66,6 +66,14 @@ $img = get_field('image')['sizes']['hero-image-max'];
 
                 <div class="form-group">
 
+                    <!-- <div id="captcha">
+
+                        <div class="g-recaptcha" data-sitekey="6LcvdXkaAAAAAABmvEOdmd6mrCtJsyzwBDDaZqBd"></div>
+
+                    </div>
+                    
+                    <br/> -->
+
                     <div>
                         <button type="submit" class="btn btn-dark btn-block">Skicka din fråga</button>
                     </div>
