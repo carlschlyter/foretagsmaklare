@@ -7,82 +7,65 @@ $img = get_field('image')['sizes']['hero-image-max'];
 
 ?>
 
-<div class="row" id="contact-container">
-
+<div class="row" id="contact-form">
+<!-- 
     <div class="col-md-12" id="contact-container-img">
         <img src="<?php echo $img; ?>" alt="" class="img-fluid">
-    </div>
+    </div> -->
 
-    <div id="success_message" class="alert alert-success col-md-12" style="display:none"></div>
+    <div class="col-md-12" id="contact-container">
 
-    <div class="col-md-12" id="msg-and-form-container">
+        <div class="container" id="msg-form">
 
-        <div class="col-md-6" id="contact-message">
+            <div class="row" >
+                <div id="success_message" class="alert alert-success col-md-12" style="display:none"></div>
+            </div>
 
-            <h2> <?php echo $header; ?> </h2>
-            <p> <?php echo $intro; ?> </p>
+            <form id="contact">
 
-        </div>
-    
-        <form class="col-md-6" id="contact">
+                <h2> <?php echo $header; ?> </h2>
 
-            <div>
+                <p id="contact-intro"> <?php echo $intro; ?> </p>
 
-                <div class="form-group">
+                <div class="form-group row">
 
-                    <div>
+                    <div class="col-md-6">
                         <input type="text" name="Förnamn" placeholder="Förnamn" class="form-control" required>
                     </div>
-
-                    <div>
+                    
+                    <div class="col-md-6">
                         <input type="text" name="Efternamn" placeholder="Efternamn" class="form-control" required>
                     </div>
 
-                    </div>
+                </div>
+                
+                <div class="form-group row">
 
-                    <div class="form-group">
-
-                    <div>
+                    <div class="col-md-6">
                         <input type="email" name="E-post" placeholder="E-post" class="form-control" required>
                     </div>
 
-                    <div>
+                    <div class="col-md-6">
                         <input type="tel" name="Mobil" placeholder="Mobil" class="form-control" required>
                     </div>
 
                 </div>
 
-            </div>
-
-            <div>
-
                 <div class="form-group">
 
-                    <div>
-                        <textarea name="Meddelande" placeholder="Meddelande" class="form-control" rows="3" required></textarea>
-                    </div>
+                    <textarea name="Meddelande" placeholder="Meddelande" class="form-control" required></textarea>
 
                 </div>
 
                 <div class="form-group">
 
-                    <!-- <div id="captcha">
-
-                        <div class="g-recaptcha" data-sitekey="6LcvdXkaAAAAAABmvEOdmd6mrCtJsyzwBDDaZqBd"></div>
-
-                    </div>
-                    
-                    <br/> -->
-
-                    <div>
-                        <button type="submit" class="btn btn-dark btn-block">Skicka din fråga</button>
-                    </div>
+                    <button type="submit" class="btn btn-dark btn-block" id="send-query-button">Skicka din fråga</button>
 
                 </div>
-
-            </div>
             
-        </form>
+            </form>
+
+        </div>
 
     </div>
 

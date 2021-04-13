@@ -5,11 +5,11 @@
 
         <span class="open-slide">
     
-            <div id="logo-box">            
-                <!-- <img src="http://localhost/foretagsmaklare/wp-content/uploads/2021/03/Logga-Cirion-FM_orig_dark_backgr.png" alt="" class="img-fluid"> -->
-
-                <img src="https://cirion.se/wp-content/uploads/2021/03/Logga-Cirion-FM_orig_dark_backgr.png" alt="" class="img-fluid">
-            </div>
+            <a href="https://cirion.se">
+                <div id="logo-box">            
+                    <img src="https://cirion.se/wp-content/uploads/2021/04/Logga-Cirion-FM_orig_dark_backgr.svg" alt="" class="img-fluid">
+                </div>
+            </a>
 
             <a href="#" onclick="openSlideMenu()">
     

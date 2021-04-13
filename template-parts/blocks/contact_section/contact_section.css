@@ -1,318 +1,75 @@
-
-#contact-container {
-    width: 100%;
+#contact-form {
     margin: 0;
     padding: 0;
-    position: relative;
+    /* position: relative; */
+    background-image: url('https://cirion.se/wp-content/uploads/2021/02/StockSnap_VMBHOPBDVR_2560x1400_blur.png');
+    background-size:cover;
+    /* height: 70vh; */
 }
 
-#contact-container img {
-    margin: 0;
-    padding: 0;
-}
+/* #msg-form {
+    position:absolute;
+    top: 12vh;
+} */
+
+
+::placeholder {
+    font-size: 2vh;
+} 
+
 
 #contact-container-img {
     margin: 0;
-    padding: 0;    
+    padding: 0;
 }
 
-#msg-and-form-container {
+#contact-container {
+    padding: 2%;
+    margin: 0.2% 0 0 0; 
+    /* position: absolute; */
+    top: 10vh;
+}
+
+#success_message {
     display: flex;
     justify-content: center;
-    position: absolute;
-    /* top: 2vh; */
-    padding-top: 2vh 0 0 0;
-    margin: 0;
+    padding: 1%;
 }
 
-#contact-message {
-    padding: 5vw 3vw 3vw 3vw;
-}
-
-#contact-message h2 {
-    color: white;
-}
-
-#contact-message p {
-    color: white;
+#contact-container p,
+#contact-container h2 {
     text-align: left;
+    color: white;
 }
 
-#contact {
-    padding: 3vw;
+.form-group div, textarea {
+    margin-bottom: 1vh;
 }
 
-#contact input, textarea {
-    margin: 3vh 0;
-}
-
-#contact button {
-    opacity: 0.6;
-}
-
-#contact button:hover {
+#send-query-button:hover {
     opacity: 0.6;
     box-shadow:10px 5px 5px rgb(161, 153, 161);
     transition: 0.5s;
 }
 
-#success_message {
-    padding: 1%;
-    position: absolute;
-    bottom: 2vh;
-}
 
-/* #captcha {
-    height: fit-content;
-} */
-
-@media screen and (max-width: 1366px) {
-
-    #contact input, textarea {
-        margin: 1.5vh 0;
-    }
-
-}
-
-@media screen and (max-width: 1024px) {
-
-    #msg-and-form-container{
-        padding-top: 1vh;
-    }
-
-    #contact input, textarea {
-        margin: 0.5vh 0;
-    }
-
-    #contact-massage {
-        padding-top: 3vw;
-    }
-
-    #contact {
-        padding-top: 1vw;
-    }
-
-}
-
-@media screen and (max-width: 812px) {
-
-    #contact-message h2 {
-        font-size: 2.75vw;
-    }
-
-    #contact-message p {
-        font-size: 1.75vw;
-    }
-
-}
-
-@media screen and (max-width: 736px) {
-
-    #msg-and-form-container {
-        display: block;
-    }
-
-    #contact-message h2 {
-        font-size: 2.5vw;
-    }
-
-    #contact-message p {
-        font-size: 1.5vw;
-    }
+@media screen and (max-width: 768px) {
     
-    #contact {
-        display: flex;
-        justify-content: space-evenly;
+    #contact p {
+        display: none;    
     }
-
-    #contact .form-group {
-        width: 40vw;
-    }
-
-    #contact-message {
-        margin-bottom: 0;
-        padding-bottom: 0;   
-    }
-
-    #contact .form-group div input {
-        height: 4vw;
-    }
-
-}
-
-@media screen and (max-width: 667px) {
-
-    #msg-and-form-container {
-        display: flex;
-    }
-
-    #contact-message h2 {
-        font-size: 3vw;
-    }
-
-    #contact-message p {
-        font-size: 2vw;
-    }
-
-    #contact {
-        display: block;
-    }
-
-    #contact .form-group div {
-        height: 5.5vw;
-        position: relative;
-    }
-
-    #contact .form-group div button {
-        position: absolute;
-        top: 17vh;
-    }
-
-}
-
-@media screen and (max-width: 640px) {
-
-    #contact .form-group div {
-        height: 5.75vw;
-    }
-
-    #contact .form-group div button {
-        top: 14.5vh;
-    }
-
-}
-
-@media screen and (max-width: 568px) {
-
-    #contact-container img {
-        display: none;
-    }
-
-    #msg-and-form-container {
-        display: block;
-        background-color: black;
-        position: relative;
-        height: 120vh;
-    }
-
-    #contact button {
-        opacity: 1;
-        background-color: white;
-        color: black;
-    }
-
-    #contact-message h2 {
-        font-size: 5vh;
-    }
-
-    #contact-message p {    
-        display: none;
-    }
-
-    #contact .form-group div {
-        height: 7vw;
-        width: 87vw;
-    }
-
-    #contact .form-group div button {
-        top: 17vh;
-    }
-
-    /* #contact .form-group div button {
-        top: 20vh;
-    }
-
-    #contact-message p {
-       margin: 0;
-    } */
-
 }
 
 @media screen and (max-width: 414px) {
 
-    #contact-container img {
-        display: none;
-    }
-
-    #msg-and-form-container {
-        display: block;
-        background-color: black;
-        position: relative;
-        height: 50vh;
-    }
-
-    #contact button {
-        opacity: 1;
-        background-color: white;
-        color: black;
-    }
-
-    #contact-message h2 {
-        font-size: 2vh;
-    }
-
-    #contact-message p {    
-        display: none;
-    }
-
-    #contact .form-group div {
-        height: 9vw;
-        width: 87vw;
-    }
-
-    #contact .form-group div button {
-        top: 8vh;
-    }
-    
-}
-
-@media screen and (max-width: 375px) {
-
-
-    #msg-and-form-container {
-        height: 53vh;
-    }
-
-    #contact-message h2 {
+    #contact h2 {
         font-size: 3vh;
     }
 
-    #contact .form-group div input {
-        height: 8vw;
-        width: 87vw;
-    }
-
 }
 
-@media screen and (max-width: 360px) {
 
-    #msg-and-form-container {
-        height: 55vh;
-    }
 
-    #contact .form-group div button {
-        top: 10vh;
-    }
 
-    #contact .form-group div input {
-        height: 7vw;
-        width: 87vw;
-        margin-top: 0;
-        margin-bottom: 0;
-    }
-
-}
-
-@media screen and (max-width: 320px) {
-
-    #msg-and-form-container {
-        height: 57vh;
-    }
-
-    #contact .form-group div button {
-        top: 11vh;
-    }
-
-}
 
 

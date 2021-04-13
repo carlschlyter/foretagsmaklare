@@ -8,10 +8,19 @@
     justify-content: center;
 }
 
+#hero-subcontainer-video {
+    margin: 0;
+    padding: 0;
+}
+
 #hero-container,
 #hero-box {
     padding: 0;
     margin: 0;
+}
+
+#hero-box video {
+    padding: 0;
 }
 
 /* #alternative-hero-container {
@@ -27,7 +36,7 @@
     margin: 0;
 }
 
-#alternative-hero video {
+#hero-subcontainer-video video {
     object-fit: scale-down; 
 }
 
@@ -162,7 +171,7 @@
 
 @media screen and (max-width: 1023px) {
     
-    #alternative-hero {
+    #hero-subcontainer-video {
         display: none;
     }
 
