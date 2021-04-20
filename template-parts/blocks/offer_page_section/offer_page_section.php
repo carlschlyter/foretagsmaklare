@@ -58,6 +58,47 @@ $link = get_field('next_offer_link');
                     <p>Email: <a href=" mailto:<?php echo $email; ?> "> <?php echo $email; ?> </a></p>
                     <p> Mobil: <?php echo $phone; ?> </p>
                 </div>
+
+                <div class="offer-page-text-parts" id="contact-box">
+
+                    <h4>Vill du veta mer om det här objektet?</h4>  
+                    <p>Fyll i uppgifterna nedan och skicka, så återkommer vi inom kort.</p>      
+
+                    <div class="row" >
+                        <div id="success_message_2" class="alert alert-success col-md-12" style="display:none"></div>
+                    </div>
+
+                    <form id="contact_2">
+
+                        <div class="form-group row">
+
+                            <div class="col-md-12" id="prospect">
+                                <input type="text" name="Prospekt" value="<?php echo $main_header ?>" class="form-control" >
+                            </div>
+
+                        </div>
+
+                        <div class="form-group row">
+
+                            <div class="col-md-6">
+                                <input type="email" name="E-post" placeholder="E-post" class="form-control" required>
+                            </div>
+
+                            <div class="col-md-6">
+                                <input type="tel" name="Mobil" placeholder="Mobil" class="form-control">
+                            </div>
+
+                        </div>
+
+                        <div class="form-group">
+
+                            <button type="submit" class="btn btn-dark btn-block" id="send-query-button">Kontakta mig!</button>
+
+                        </div>
+
+                    </form>
+
+                </div>
                 
             </div>
             
@@ -76,3 +117,52 @@ $link = get_field('next_offer_link');
     </div>
 
 </div>
+
+<script>
+
+(function($){
+
+$('#contact_2').submit(function(event){
+
+    event.preventDefault();
+
+    let endpoint = '<?php echo admin_url('admin-ajax.php'); ?>';
+
+    let form = $('#contact_2').serialize();
+
+    let formdata = new FormData;
+
+    formdata.append('action', 'contact_2');
+    formdata.append('contact_2', form);
+
+    $.ajax(endpoint, {
+
+        type: 'POST',
+        data: formdata,
+        processData: false,
+        contentType: false,
+
+        success: function(res){
+
+            $('#contact_2').fadeOut(1000);
+
+            $('#success_message_2').text('Tack för ditt meddelande').show();
+
+            $('#contact_2').trigger('reset');
+
+            $('#contact_2').fadeIn(5000);
+
+            $('#success_message_2').fadeOut(3000);
+
+        },
+
+        error: function(err){
+
+        }
+    })
+
+})
+
+})(jQuery)
+
+</script>

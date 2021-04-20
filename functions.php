@@ -284,12 +284,6 @@ add_action('wp_ajax_nopriv_contact', 'contact_form');
 
 function contact_form(){
 
-    // if(filter_has_var(INPUT_POST, 'data')){
-    //     echo 'Data found';
-    // } else {
-    //     echo 'No data';
-    // }
-
     $formdata = [];
 
     wp_parse_str($_POST['contact'], $formdata);
@@ -340,8 +334,57 @@ function contact_form(){
                 wp_send_json_error('E-post fel');
     
             }
-                
+                    
+        } catch (Exception $e){
     
+                wp_send_json_error($e-> getMessage());
+        }
+    
+}
+
+//Contact_2 form
+add_action('wp_ajax_contact_2', 'contact_form_2');
+add_action('wp_ajax_nopriv_contact_2', 'contact_form_2');
+
+function contact_form_2(){
+
+    $formdata = [];
+
+    wp_parse_str($_POST['contact_2'], $formdata);
+
+    //The sender of the email i.e. the admin email
+    $admin_email = get_option('admin_email');
+
+    //Email headers
+    $headers[] = 'Content-Type: text/html; charset=utf-8';
+    $headers[] = 'Från' . $admin_email;
+    $headers[] = 'Svara till' . $formdata['E-post'];
+
+    //The recipient of the email
+    $send_to = $admin_email;
+
+    //Subject
+    $subject = 'Intresseanmälan ang ' . $formdata['Prospekt'];
+
+
+    foreach($formdata as $index => $field){
+
+        $message .= '<strong>' . $index . '</strong>: ' . $field . '<br/>';
+    }
+
+        try {
+    
+            if(wp_mail($send_to, $subject, $message, $headers)){
+
+                wp_send_json_success('E-post skickat');
+    
+            }
+            else {
+    
+                wp_send_json_error('E-post fel');
+    
+            }
+                
         } catch (Exception $e){
     
                 wp_send_json_error($e-> getMessage());

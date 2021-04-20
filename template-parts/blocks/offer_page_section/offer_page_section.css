@@ -83,7 +83,12 @@
 
 #offer-page-data {
     width: fit-content;
-    margin-left: 2vw;    
+    margin-left: 2vw; 
+    padding: 0 ;   
+}
+
+#offer-page-contact-parts {
+    padding-top: 0;
 }
 
 #offer-page-contact-parts p {
@@ -91,6 +96,18 @@
     margin-bottom: 0;
     padding-top: 0;
     padding-bottom: 0;
+}
+
+#contact-box {
+    border: 1px solid lightgrey;
+}
+
+#contact-box button {
+    margin-top: 2vh;
+}
+
+#prospect {
+    display: none;
 }
 
 @media screen and (max-width: 1024px) {
@@ -104,12 +121,24 @@
         left: 8vw;
     }
 
+    #offer-page-text-box h3 {
+        font-size: 2vw;
+    }
+
     #offer-page-text-box > div p {
-        font-size: 1.5vw;
+        font-size: 1.34vw;
     }
 
     #offer-page-text-box > div a {
         font-size: 1.5vw;
+    }
+
+    #contact-box h4 {
+        font-size: 1.67vw;
+    }
+
+    #contact-box p {
+        font-size: 1vw;
     }
 
 }
@@ -134,15 +163,19 @@
     }
 
     #offer-page-text-box > div h3 {
-        font-size: 2.5vw;
+        font-size: 2.25vw;
     }
 
     #offer-page-text-box > div p {
-        font-size: 2vw;
+        font-size: 1.5vw;
     }
 
     #offer-page-text-box > div a {
-        font-size: 2vw;
+        font-size: 1.5vw;
+    }
+
+    #contact-box h4 {
+        font-size: 1.87vw;
     }
 
 }
@@ -199,11 +232,19 @@
         font-size: 2vw;
     }
 
+    #offer-page-text-box > div h3 {
+        font-size: 3vw;
+    }
+
     #offer-page-text-box > div p {
-        font-size: 2.5vw;
+        font-size: 2vw;
     }
 
     #offer-page-text-box > div a {
+        font-size: 2vw;
+    }
+
+    #contact-box h4 {
         font-size: 2.5vw;
     }
 
@@ -231,12 +272,20 @@
         margin-right: auto;
     }
 
+    #offer-page-text-box > div h3 {
+        font-size: 4.48vw;
+    }
+
     #offer-page-text-box > div p {
         font-size: 3vw;
     }
 
     #offer-page-text-box > div a {
         font-size: 3vw;
+    }
+
+    #contact-box h4 {
+        font-size: 3.61vw;
     }
 
 }
