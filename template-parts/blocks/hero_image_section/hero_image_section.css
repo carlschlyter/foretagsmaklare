@@ -187,6 +187,10 @@
 
 @media screen and (max-width: 812px) {
 
+    #message-container {
+        top: 32vw;
+    }
+    
     .message-box h2 {
         font-size: 2.5vw;
     }
@@ -263,7 +267,7 @@
     }
 
     #message-container {
-        top: 30vw;
+        top: 28vw;
     }
     
     .message-box h2 {
@@ -300,17 +304,17 @@
 
 }
 
-@media screen and (max-width: 414px) {
+/* @media screen and (max-width: 414px) {
 
-    /* #alternative-hero {
+    #alternative-hero {
         height: 30vh;
     }
     
     #alternative-hero video {
         height: 30%;
-    } */
+    }
 
-}
+} */
 
 @media screen and (max-width: 375px) {
 
